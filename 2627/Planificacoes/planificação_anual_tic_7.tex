@@ -1,11 +1,33 @@
 \documentclass[11pt,a4paper]{article}
 \usepackage[portuguese]{babel}
 
+\usepackage{array, tabularx, multirow, xcolor, colortbl, makecell}
+
 \input{cabecalho_alfornelos}
 
 
 \begin{document}
 \CabecalhoAlfornelos
 
+\newcolumntype{L}{>{\small\bfseries}p{2.5cm}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
+\renewcommand{\arraystretch}{1.2}
+
+\begin{tabularx}{\textwidth}{|>{\bfseries\raggedright\arraybackslash}p{3.5cm}|X|}
+\hline
+Escola & Escola Básica de Alfornelos \\
+\hline
+Ano letivo & 2026/2027 \\
+\hline
+Serviço & Departamento de Matemática e Informática \\
+\hline
+Grupo disciplinar & 550 - Informática \\
+\hline
+Assunto & Planificação Anual de TIC \\
+\hline
+Responsável & Graça Paisana \\
+\hline
+\end{tabularx}
 
 \end{document}
