@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1790514219.71601 "/home/fgo/MyWorkspace/Work/2026_2027/SchoolStuff/2627/Planificacoes/planificação_anual_tic_7.tex" "planificação_anual_tic_7.pdf" "planificação_anual_tic_7" 1790514220.00942 0
-  "/home/fgo/MyWorkspace/Work/2026_2027/SchoolStuff/2627/Planificacoes/planificação_anual_tic_7.tex" 1790514219.54738 742 43476a7e32237c8a095d716861386cb5 ""
+["pdflatex"] 1790515055.02525 "/home/fgo/MyWorkspace/Work/2026_2027/SchoolStuff/2627/Planificacoes/planificação_anual_tic_7.tex" "planificação_anual_tic_7.pdf" "planificação_anual_tic_7" 1790515055.28638 0
+  "/home/fgo/MyWorkspace/Work/2026_2027/SchoolStuff/2627/Planificacoes/planificação_anual_tic_7.tex" 1790515054.87453 737 46f6a0d4748123cb09acd21e67f9783f ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1775415801 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1775415801 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm" 1775415801 1328 5442e22a7072966dbaf88ca900acf3f0 ""
@@ -111,8 +111,8 @@
   "assets/files/logo_agrupamento_completo.png" 1790438956 15121 db767a6f521c0ff17fd21dc624789135 ""
   "assets/files/logo_republica_portuguesa_completo.png" 1790443133.23428 18586 d59158ea709c42f6dd526952b60c9222 ""
   "cabecalho_alfornelos.tex" 1790445632.05691 1691 ee725446863ee5bb7c95d8e5d5cd64b4 ""
-  "planificação_anual_tic_7.aux" 1790514219.98053 173 8c498bf488487d02d569f864c835083a "pdflatex"
-  "planificação_anual_tic_7.tex" 1790514219.54738 742 43476a7e32237c8a095d716861386cb5 ""
+  "planificação_anual_tic_7.aux" 1790515055.26056 173 8c498bf488487d02d569f864c835083a "pdflatex"
+  "planificação_anual_tic_7.tex" 1790515054.87453 737 46f6a0d4748123cb09acd21e67f9783f ""
   (generated)
   "planificação_anual_tic_7.aux"
   "planificação_anual_tic_7.log"
