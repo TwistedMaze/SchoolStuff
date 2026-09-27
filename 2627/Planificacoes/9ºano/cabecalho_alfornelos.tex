@@ -1,0 +1,52 @@
+\RequirePackage{graphicx}
+\RequirePackage{tikz}
+
+\providecommand{\PastaLogosAlfornelos}{assets/files/}
+
+\newcommand{\CabecalhoAlfornelos}{%
+  \begingroup
+  \setlength{\parindent}{0pt}
+  % --- Dimensões do bloco (mantém a proporção do cabeçalho original) ---
+  \def\LarguraCab{\textwidth}
+  \newlength\AlturaCab
+  \setlength{\AlturaCab}{0.1525\LarguraCab}
+  %
+  \noindent
+
+
+  \begin{tikzpicture}
+   \useasboundingbox (0,0) rectangle (\LarguraCab,-1.42\AlturaCab);
+
+     % --- Logótipo esquerdo ---
+    \node[anchor=north west, inner sep=0] at (0.0308\LarguraCab, -0.1709\AlturaCab)
+      {\includegraphics[width=0.1805\LarguraCab]{\PastaLogosAlfornelos logo_republica_portuguesa_completo.png}};
+
+    % --- Texto das escolas (usa a fonte corrente do documento) ---
+    \node[anchor=north, align=center, text width=0.99\LarguraCab, inner sep=0]
+    at (0.5\LarguraCab, -0.2730\AlturaCab)
+   {\fontsize{9}{11}\selectfont\bfseries
+    Agrupamento de Escolas de Alfornelos\\
+    Código 170161 \\
+    A Par e Passo Rumo ao Sucesso\\
+};
+
+ % --- Logótipo agrupamento ---
+    \node[anchor=north west, inner sep=0] at (0.8525\LarguraCab, -0.1519\AlturaCab)
+      {\includegraphics[width=0.1971\LarguraCab]{\PastaLogosAlfornelos logo_agrupamento_completo.png}};
+
+      % --- Linha inferior ---
+    \draw[line width=0.9pt, black!70]
+      (0.1342\LarguraCab, -0.9658\AlturaCab) -- (0.8668\LarguraCab, -0.9658\AlturaCab);
+
+
+    %--- Texto inferior ---
+    \node[anchor=north, align=center, text width=0.99\LarguraCab, inner sep=0]
+    at (0.5\LarguraCab, -1\AlturaCab)
+   {\fontsize{9}{11}\selectfont\bfseries
+   Sede: Escola Básica de Alfornelos\\
+   344515
+
+};
+  \end{tikzpicture}
+  \endgroup
+}
