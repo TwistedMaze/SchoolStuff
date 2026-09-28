@@ -58,37 +58,41 @@ Fonte: [Mozilla — O que é um navegador?](https://www.mozilla.org/pt-BR/firefo
 
 ### Motores de Busca
 
----
-
-### Repositórios
-
----
-
-### Inteligência Artificial
+- Um motor de busca ajuda-nos a **encontrar informação** na Internet.
+- Funciona através de **palavras-chave**.
+- Mostra uma lista de páginas relacionadas com o que procuramos.
 
 ---
 
-<!-- O que é um website
+### Como funcionam?
 
-O que é um link
+- O motor de busca percorre milhões de páginas.
+- Guarda cópias dessas páginas num índice.
+- Quando pesquisamos, compara as nossas palavras com esse índice.
+- Mostra os resultados mais relevantes.
 
-O que é um motor de busca
+---
 
-Diferença entre:
+### Palavras-chave
 
-conteúdo
+- Usar palavras simples e diretas.
+- Evitar frases completas.
+- Testar sinónimos.
 
-publicidade
+Exemplos:
+- "animais perigosos"
+- "história de Portugal"
+- "como fazer um gráfico"
 
-comentários
+---
 
-pop-ups
+### Operadores úteis
 
-Segurança básica
+- Aspas → "frase exata"
+- Menos → -excluir
+- site: → procurar num site específico
 
-cadeado HTTPS
-
-domínios suspeitos
-
-downloads perigosos
- -->
+Exemplos:
+- "energia solar"
+- "energia solar" -carros
+- site: wikipedia "energia solar"
