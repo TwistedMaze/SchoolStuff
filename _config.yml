@@ -3,5 +3,6 @@ title: My Educational content!
 description: Bookmark this to keep an eye on my project updates!
 
 exclude:
-- node_modules/
-- "**/node_modules/"
+  - node_modules/
+  - "**/node_modules/"
+  - "**/*.mdx"
