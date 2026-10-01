@@ -4,7 +4,7 @@ theme: dracula
 transition: slide
 ---
 
-## TIC 7º Ano - Sistemas Operativos
+## Sistemas Operativos
 
 ---
 ### O que é um Sistema Operativo?
@@ -59,14 +59,17 @@ transition: slide
 
 ## Tipos de Sistemas Operativos
 
-- **Monolíticos** – tudo dentro de um único núcleo (ex.: Linux).
-- **Modulares** – divididos em partes independentes (ex.: Windows NT).
-- **Móveis** – otimizados para toque e bateria (ex.: Android, iOS).
+- Para computadores – Windows, Linux, macOS
 
+- Para dispositivos móveis – Android, iOS
+
+- Para outros dispositivos – sistemas usados em carros, televisores, relógios, máquinas, etc.
 ---
 
 ## Atividade prática
 
-1. Abre o simulador.
-2. Cria um ficheiro
-4. Depois abre o “Explorador” e vê como o sistema reage.
+1. Abre o simulador [ProzillaOS]{https://os.prozilla.dev}.
+2. Tenta criar um ficheiro como no Windows 10.
+3. Conseguiste?
+
+(nota: o site do simulador é uma demonstração. É normal não conseguires gravar ficheiros)
