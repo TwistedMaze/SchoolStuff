@@ -68,7 +68,7 @@ transition: slide
 
 ## Atividade prática
 
-1. Abre o simulador [ProzillaOS]{https://os.prozilla.dev}.
+1. Abre o simulador [ProzillaOS](https://os.prozilla.dev).
 2. Tenta criar um ficheiro como no Windows 10.
 3. Conseguiste?
 
