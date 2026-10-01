@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>TIC - 8º ano</title>
+    <link rel="shortcut icon" href="./../favicon.ico" />
+    <link rel="stylesheet" href="./../dist/reset.css" />
+    <link rel="stylesheet" href="./../dist/reveal.css" />
+    <link rel="stylesheet" href="./../dist/theme/dracula.css" id="theme" />
+    <link rel="stylesheet" href="./../css/highlight/base16/zenburn.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown data-separator="\r?\n---\r?\n" data-separator-vertical="\r?\n----\r?\n">
+          <textarea data-template>
+            
+
+## Investigar e Pesquisar
+
+### A Internet
+
+---
+
+### Definição
+
+- A internet é uma rede global de computadores de vários tipos, todos ligados entre si a trocarem mensagens, fotos ou vídeos.
+- Alguns computadores só servem conteúdos aos outros (servidores)
+- Alguns computadores só conseguem ver conteúdos servidos por outros computadores (clientes)
+
+---
+
+### Websites
+
+- Quando navegamos na Internet, interagimos com páginas Web, ou websites.
+- Um website é uma página ou conjunto de páginas
+- Para acedermos a um website precisamos de um _link_ ou uma _hiperligação_
+- Um _link_ é um atalho.
+
+exemplo: [Google](https://www.google.pt)
+
+---
+
+### Pesquisar na Internet
+
+- Navegadores
+- Motores de Busca
+- Repositórios
+- Inteligência Artificial
+
+---
+
+### Navegadores
+
+- Programas que nos permitem aceder a páginas na web
+- Programas que nos permitem ver videos, fotografias e ouvir música da web
+
+> “Um navegador web leva você a qualquer lugar na Internet, permitindo ver textos, imagens e vídeos de qualquer lugar do mundo.”  
+> — *Mozilla Firefox*
+---
+
+### Pensa nisto
+
+
+> “Usamos navegadores web todos os dias, mas entendemos o que eles são e como funcionam?”  
+> — *Mozilla Firefox*
+
+Fonte: [Mozilla — O que é um navegador?](https://www.mozilla.org/pt-BR/firefox/browsers/what-is-a-browser/)
+---
+
+### Motores de Busca
+
+- Um motor de busca ajuda-nos a **encontrar informação** na Internet.
+- Funciona através de **palavras-chave**.
+- Mostra uma lista de páginas relacionadas com o que procuramos.
+
+---
+
+### Como funcionam?
+
+- O motor de busca percorre milhões de páginas.
+- Guarda cópias dessas páginas num índice.
+- Quando pesquisamos, compara as nossas palavras com esse índice.
+- Mostra os resultados mais relevantes.
+
+---
+
+### Palavras-chave
+
+- Usar palavras simples e diretas.
+- Evitar frases completas.
+- Testar sinónimos.
+
+Exemplos:
+- "animais perigosos"
+- "história de Portugal"
+- "como fazer um gráfico"
+
+---
+
+### Operadores úteis
+
+- Aspas → "frase exata"
+- Menos → -excluir
+- site: → procurar num site específico
+
+Exemplos:
+- "energia solar"
+- "energia solar" -carros
+- site: wikipedia "energia solar"
+          </textarea>
+        </section>
+      </div>
+    </div>
+
+    <script src="./../dist/reveal.js"></script>
+
+    <script src="./../mermaid/dist/mermaid.min.js"></script>
+
+    <script src="./../plugin/markdown/markdown.js"></script>
+    <script src="./../plugin/highlight/highlight.js"></script>
+    <script src="./../plugin/zoom/zoom.js"></script>
+    <script src="./../plugin/notes/notes.js"></script>
+    <script src="./../plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        slideNumber: true,
+        highlight: {
+          highlightOnLoad: false
+        },
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"_":["./2627/slides e atividades"],"static":"docs"}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+      Reveal.addEventListener('ready', function (event) {
+        const blocks = Reveal.getRevealElement().querySelectorAll('pre code:not(.mermaid)');
+        const hlp = Reveal.getPlugin('highlight');
+        blocks.forEach(hlp.highlightBlock);
+      });
+    </script>
+
+    <script>
+      const mermaidOptions = extend({ startOnLoad: false }, {});
+      mermaid.startOnLoad = false;
+      mermaid.initialize(mermaidOptions);
+      const cb = function (event) { mermaid.init(mermaidOptions, '.stack.present>.present pre code.mermaid'); };
+      Reveal.addEventListener('ready', cb);
+      Reveal.addEventListener('slidetransitionend', cb);
+    </script>
+  </body>
+</html>

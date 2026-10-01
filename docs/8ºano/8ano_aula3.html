@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>TIC - 8º ano</title>
+    <link rel="shortcut icon" href="./../favicon.ico" />
+    <link rel="stylesheet" href="./../dist/reset.css" />
+    <link rel="stylesheet" href="./../dist/reveal.css" />
+    <link rel="stylesheet" href="./../dist/theme/dracula.css" id="theme" />
+    <link rel="stylesheet" href="./../css/highlight/base16/zenburn.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown data-separator="\r?\n---\r?\n" data-separator-vertical="\r?\n----\r?\n">
+          <textarea data-template>
+            
+
+## Investigar e Pesquisar
+
+### A Internet III
+---
+
+### Acessibilidade Web
+
+- A acessibilidade garante que **todas as pessoas** conseguem usar um website.
+- Inclui pessoas com dificuldades de visão, audição, mobilidade ou compreensão.
+- Um site acessível é mais fácil de usar para **toda a gente**.
+
+---
+
+### Porque é importante?
+
+- Nem todas as pessoas veem bem.
+- Nem todas conseguem usar o rato.
+- Nem todas conseguem ouvir vídeos.
+- Nem todas entendem textos complicados.
+
+> A acessibilidade torna a Internet mais justa e mais fácil de usar.
+
+---
+
+### Problemas comuns
+
+- Texto demasiado pequeno.
+- Cores com pouco contraste.
+- Imagens sem descrição.
+- Botões muito pequenos.
+- Páginas confusas ou desorganizadas.
+
+---
+
+### Texto e Tamanho
+
+- O texto deve ser fácil de ler.
+- Títulos grandes ajudam a perceber o tema.
+- Parágrafos curtos são mais claros.
+
+Exemplo:
+- Bom: **Texto grande e claro**
+- Mau: texto pequeno e apertado
+
+---
+
+### Cores e Contraste
+
+- As cores devem ter **bom contraste**.
+- Texto escuro em fundo claro → fácil de ler.
+- Texto claro em fundo escuro → também funciona.
+- Evitar: amarelo em branco, azul escuro em preto.
+
+---
+
+### Imagens e Descrição
+
+- As imagens devem ter **texto alternativo** (alt text).
+- O texto alternativo explica o que está na imagem.
+- Ajuda pessoas que não conseguem ver bem.
+
+---
+Exemplo:
+- ### Exemplo de Texto Alternativo
+
+![Um cão a correr num parque](imagem-que-nao-existe.jpg)
+
+---
+
+### Botões e Navegação
+
+- Botões devem ser grandes e fáceis de clicar.
+- Menus devem ser simples.
+- Páginas devem ter uma estrutura clara:
+  - Cabeçalho
+  - Conteúdo
+  - Rodapé
+
+---
+
+### Acessibilidade na prática
+
+- Aumentar tamanho do texto.
+- Escolher cores com bom contraste.
+- Organizar o conteúdo em secções.
+- Adicionar texto alternativo às imagens.
+- Evitar páginas confusas.
+
+---
+
+### Ferramentas úteis
+
+- **WAVE** — mostra problemas de acessibilidade.
+- **Lighthouse** — analisa acessibilidade no navegador.
+- **Google Sites** — permite corrigir problemas facilmente.
+
+> No 8.º ano, basta identificar problemas simples e corrigi-los.
+
+---
+
+### Atividade rápida
+
+1. Visita um website simples.
+2. Identifica 3 problemas de acessibilidade.
+3. Sugere como os corrigir.
+4. Partilha com a turma.
+
+---
+
+          </textarea>
+        </section>
+      </div>
+    </div>
+
+    <script src="./../dist/reveal.js"></script>
+
+    <script src="./../mermaid/dist/mermaid.min.js"></script>
+
+    <script src="./../plugin/markdown/markdown.js"></script>
+    <script src="./../plugin/highlight/highlight.js"></script>
+    <script src="./../plugin/zoom/zoom.js"></script>
+    <script src="./../plugin/notes/notes.js"></script>
+    <script src="./../plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        slideNumber: true,
+        highlight: {
+          highlightOnLoad: false
+        },
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"_":["./2627/slides e atividades"],"static":"docs"}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+      Reveal.addEventListener('ready', function (event) {
+        const blocks = Reveal.getRevealElement().querySelectorAll('pre code:not(.mermaid)');
+        const hlp = Reveal.getPlugin('highlight');
+        blocks.forEach(hlp.highlightBlock);
+      });
+    </script>
+
+    <script>
+      const mermaidOptions = extend({ startOnLoad: false }, {});
+      mermaid.startOnLoad = false;
+      mermaid.initialize(mermaidOptions);
+      const cb = function (event) { mermaid.init(mermaidOptions, '.stack.present>.present pre code.mermaid'); };
+      Reveal.addEventListener('ready', cb);
+      Reveal.addEventListener('slidetransitionend', cb);
+    </script>
+  </body>
+</html>
