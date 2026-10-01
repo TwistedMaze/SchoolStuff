@@ -47,3 +47,11 @@ transition: slide
 - Muitos repositórios usam **Creative Commons**.
 - Permitem reutilizar imagens ou textos de forma legal.
 
+
+---
+
+### Posso usar isto?
+
+
+
+

@@ -106,9 +106,18 @@ Exemplo:
 
 ### Atividade rápida
 
-1. Visita um website simples.
-2. Identifica 3 problemas de acessibilidade.
-3. Sugere como os corrigir.
-4. Partilha com a turma.
+1. Análise de um website
 
+
+
+
+
+
+---
+
+## Extra-aula
+
+1. [The UI Game](https://theuigame.solutionflare.com/play)
+
+2. [Jogo da experiência de utilizador](https://userinyerface.com)
 ---
