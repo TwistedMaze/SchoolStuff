@@ -32,7 +32,7 @@ transition: slide
 - Biblioteca Nacional Digital → livros e documentos
 - Pexels / Unsplash → fotografias livres
 
-<img src=./images/europeana.png style="width=150px; height=40px; margin:20px; background-color: white;  "/>
+<img src="images/europeana.png" style="width=150px; height=40px; margin:20px; background-color: white;  "/>
 
 ---
 
