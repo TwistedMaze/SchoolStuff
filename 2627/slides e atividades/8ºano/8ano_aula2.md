@@ -31,10 +31,9 @@ transition: slide
 - Europeana → arte, cultura e história 
 - Biblioteca Nacional Digital → livros e documentos
 - Pexels / Unsplash → fotografias livres
-<div style="display: flex;">
-<img src="./images/europeana.png" width=150 height=40 style="background-color: white; margin:20px; padding:20px "/>
 
-</div>
+<img src=./images/europeana.png style="width=150px; height=40px; margin:20px; background-color: white;  "/>
+
 ---
 
 ### Como usar um repositório
