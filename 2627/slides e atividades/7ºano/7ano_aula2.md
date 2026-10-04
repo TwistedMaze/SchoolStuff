@@ -5,7 +5,7 @@ transition: slide
 
 ---
 
-## TIC 7º Ano - Internet
+## Internet
 
 ---
 
@@ -62,3 +62,9 @@ Sabias que…
 - Pesquisa “kernel Linux” e “interface gráfica”.
 - Guarda uma imagem livre de cada.
 - Cria um slide com as diferenças entre ambas.
+
+---
+
+## Final
+
+- O que é que encontraste que possa ter sido feito por IA?

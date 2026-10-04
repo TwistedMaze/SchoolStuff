@@ -16,21 +16,25 @@ transition: slide
 
 ---
 
-### Exemplos de Repositórios
-
-- Wikimedia Commons → imagens livres
-- Europeana → arte, cultura e história
-- Biblioteca Nacional Digital → livros e documentos
-- Pexels / Unsplash → fotografias livres
-
----
-
 ### Para que servem?
 
 - Encontrar conteúdos organizados por tema.
 - Aceder a materiais com licença aberta.
 - Pesquisar imagens ou documentos de forma segura.
 
+---
+
+
+### Exemplos de Repositórios
+
+- Wikimedia Commons → imagens livres ![wikimedia](./images/commonswiki.png)
+- Europeana → arte, cultura e história 
+- Biblioteca Nacional Digital → livros e documentos
+- Pexels / Unsplash → fotografias livres
+<div style="display: flex;">
+<img src="./images/europeana.png" width=150 height=40 style="background-color: white; margin:20px; padding:20px "/>
+
+</div>
 ---
 
 ### Como usar um repositório
@@ -47,11 +51,4 @@ transition: slide
 - Muitos repositórios usam **Creative Commons**.
 - Permitem reutilizar imagens ou textos de forma legal.
 
-
----
-
-### Posso usar isto?
-
-
-
-
+<img src="./images/CC_logo.jpg" width=150 height=70 style="background-color: white; margin:20 "/>
