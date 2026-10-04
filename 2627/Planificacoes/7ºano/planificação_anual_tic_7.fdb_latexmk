@@ -1,18 +1,15 @@
 # Fdb version 4
-["pdflatex"] 1790982721.72387 "/home/oni/projects/TIC/SchoolStuff/2627/Planificacoes/7ºano/planificação_anual_tic_7.tex" "planificação_anual_tic_7.pdf" "planificação_anual_tic_7" 1790982722.27883 2
+["pdflatex"] 1791126851.9257 "/home/oni/projects/TIC/SchoolStuff/2627/Planificacoes/7ºano/planificação_anual_tic_7.tex" "planificação_anual_tic_7.pdf" "planificação_anual_tic_7" 1791126852.54369 2
   "/etc/texmf/web2c/texmf.cnf" 1790981915.27468 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/oni/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk" 1790982720.75214 22480 05f587532bd89a5ae5a46700b59cf12d ""
   "/home/oni/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk" 1790982720.15142 28952 fff841f261fe42e9fda03a9488abcb46 ""
-  "/home/oni/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk" 1790982719.47263 40112 67ae640aa4fe23dcdcc488f0e1adf6d6 ""
   "/home/oni/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk" 1790982721.33142 26208 a287cb2772235344936bd29501585233 ""
-  "/home/oni/projects/TIC/SchoolStuff/2627/Planificacoes/7ºano/planificação_anual_tic_7.tex" 1790982588.64086 2416 4421deaef53194ebd664608e8a81840d ""
+  "/home/oni/projects/TIC/SchoolStuff/2627/Planificacoes/7ºano/planificação_anual_tic_7.tex" 1791126713.55491 2268 97e78829068e6b3acc7adfa1f8efeec7 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm" 1136768653 3584 1a7de6c99457381c64abc1a7c545505f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1136768653 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm" 1136768653 3584 13049b61b922a28b158a38aeff75ee9b ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm" 1136768653 3584 d3d8ac8b25ca19c0a40b86a5db1e8ccc ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1136768653 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm" 1136768653 3584 3169d30142b88a27d4ab0e3468e963a2 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
@@ -124,8 +121,8 @@
   "assets/files/logo_agrupamento_completo.png" 1790533003.40284 15121 db767a6f521c0ff17fd21dc624789135 ""
   "assets/files/logo_republica_portuguesa_completo.png" 1790533003.40284 18586 d59158ea709c42f6dd526952b60c9222 ""
   "cabecalho_alfornelos.tex" 1790533003.40284 1691 ee725446863ee5bb7c95d8e5d5cd64b4 ""
-  "planificação_anual_tic_7.aux" 1790982722.19942 344 1a506a2df274bdea3f2880a64b21377a "pdflatex"
-  "planificação_anual_tic_7.tex" 1790982588.64086 2416 4421deaef53194ebd664608e8a81840d ""
+  "planificação_anual_tic_7.aux" 1791126852.43569 344 1a506a2df274bdea3f2880a64b21377a "pdflatex"
+  "planificação_anual_tic_7.tex" 1791126713.55491 2268 97e78829068e6b3acc7adfa1f8efeec7 ""
   (generated)
   "planificação_anual_tic_7.aux"
   "planificação_anual_tic_7.log"
