@@ -59,7 +59,7 @@
 
 // Keep each domain and its related planning information together in one row.
 #table(
-  columns: (1.2fr, 2.5fr, 1.7fr, 1.7fr, 1.7fr, 1.7fr),
+  columns: (1.5fr, 2.5fr, 1.7fr, 1.7fr, 1.7fr, 1.7fr),
   inset: 4pt,
   align: (left + top, left + top, left + top, left + top, left + top),
   stroke: 0.5pt,
@@ -89,7 +89,39 @@
     - Ler, compreender e identificar mensagens manipuladas ou falsas;
     - Identificar os riscos do uso inapropriado de imagens, de sons e de vídeos;
     - Respeitar as normas dos direitos de autor associados à utilização da imagem, do som e do vídeo.
-  ], [], [], 
+  ], 
+  table.cell(rowspan: 4)[
+    - Conceito de Hardware;
+    - Conceito de Software;
+    - Conceito de Sistema Operativo;
+    - Tipos e formatos de ficheiros;
+    - Compressão e descompactação de ficheiros;
+    - Execução de tarefas básicas em ambientes *Windows* e *UNIX* através de simuladores;
+    - Definição de Internet;
+    - Análise da navegação na Internet em diferentes *browsers*;
+    - Direitos de autor;
+    - Pesquisa de Imagens com diferentes motores de busca;
+    - Bancos de Imagens;
+    - Edição de Imagem com GIMP;
+    - Edição de audio com Audacity;
+    - Edição de Video com VSDC Video Editor;
+    - Modelação de assets em TinkerCAD, 3DC.io, Blockbench ou CoSpaces.Edu;
+
+  ], 
+  table.cell(rowspan: 4)[
+    - Utilizar aplicações diversificadas.
+      Aplicar, através de propostas de atividades, os procedimentos a realizar na utilização das aplicações;
+      
+    - Desenvolver projetos, individuais e/ou em grupo, em articulação com outras áreas disciplinares, projetos da escola ou outras instituições;
+      
+    - Fomentar práticas seguras de utilização de ferramentas digitais;
+      
+    - Promover a proteção da privacidade de informação;
+      
+    - Fomentar a pesquisa e análise de informação, de forma crítica;
+      
+    - Promover o respeito pelos direitos de autor e de propriedade intelectual.
+    ], 
   [
 
     -Conhecedor / sabedor / culto / informado
@@ -112,8 +144,6 @@
   ], 
   [],
 
-
-
   [Investigar e pesquisar], 
   [
     - Formular questões que permitam orientar a recolha de dados ou informações pertinentes;
@@ -124,17 +154,14 @@
     - Analisar criticamente a qualidade da informação;
     - Utilizar o computador e outros dispositivos digitais, de forma a permitir a organização e gestão da informação.
   ],
-   [],
-   [], 
-   [
-
+   table.cell(rowspan:3)[
     - Questionador
     (A, F, G, I, J)
     
-    - Comunicador / Desenvolvimento da linguagem e oralidade
+    - Comunicador/Desenvolvimento da linguagem e oralidade
     (A, B, D, E, H)
     
-    - Autoavaliador(transversal às áreas)
+    - Autoavaliador (transversal às áreas)
     
     - Participativo / colaborador
     (B, C, D, E, F)
@@ -144,28 +171,19 @@
     
     - Cuidador de si e do outro
     (B, E, F, G)
-   ], 
-   [],
-  
-  [Comunicar e colaborar], 
+   ],
+  [],
+  [Comunicar e colaborar],
   [
-    Identificar novos meios e aplicações que permitam a
-comunicação e a colaboração;
-Selecionar as soluções tecnológicas (mais adequadas para
-realização de trabalho colaborativo e comunicação) que se
-pretendem efetuar no âmbito de atividades e/ou projetos;
-Utilizar diferentes meios e aplicações que permitem a
-comunicação e colaboração em ambientes digitais
-fechados;
-Apresentar e partilhar os produtos desenvolvidos,
-utilizando meios digitais de comunicação e colaboração em
-ambientes digitais fechados.
+    - Identificar novos meios e aplicações que permitam a comunicação e a colaboração;
+    
+    - Selecionar as soluções tecnológicas (mais adequadas para realização de trabalho colaborativo e comunicação) que se pretendem efetuar no âmbito de atividades e/ou projetos;
+    
+    - Utilizar diferentes meios e aplicações que permitem a comunicação e colaboração em ambientes digitais fechados;
+    
+    - Apresentar e partilhar os produtos desenvolvidos, utilizando meios digitais de comunicação e colaboração em ambientes digitais fechados.
 
-  ], [], [], [], [],
-  
-  
-  
-  
+  ], [],
   [Criar e inovar],
    [
     - Compreender e utilizar técnicas elementares (enquadramento, ângulos, entre outras) de captação e edição de imagem, som, vídeo e modelação 3D;
@@ -173,7 +191,8 @@ ambientes digitais fechados.
     - Decompor um objeto nos seus elementos constituintes;
     - Desenhar objetos, produzir narrativas digitais, utilizando as técnicas e materiais adequados de captação de imagem, som, vídeo e modelação, tendo em vista soluções adequadas a um problema ou projeto;
     - Mobilizar os conhecimentos sobre as normas dos direitos de autor associados à utilização da imagem, do som e do vídeo e modelação 3D; 
-    -Integrar conteúdos provenientes de diferentes tipos de suportes, para produzir e modificar, de acordo com normas e diretrizes conhecidas, artefactos digitais criativos para exprimir ideias, sentimentos e propósitos específicos.
+    
+    - Integrar conteúdos provenientes de diferentes tipos de suportes, para produzir e modificar, de acordo com normas e diretrizes conhecidas, artefactos digitais criativos para exprimir ideias, sentimentos e propósitos específicos.
 
-   ], [], [], [], [],
+   ],
 )
