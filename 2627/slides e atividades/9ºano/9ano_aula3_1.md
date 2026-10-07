@@ -1,0 +1,445 @@
+---
+title: "TIC 9º Ano – Dispositivos Móveis"
+theme: dracula
+transition: slide
+---
+
+## Dispositivos Móveis
+
+---
+
+### Do telemóvel à aplicação
+
+- Organização da informação
+- Sistemas operativos móveis
+- Segurança e utilização responsável
+- Aplicações móveis
+- Desenho de interfaces
+- Acessibilidade
+- Desenvolvimento de uma aplicação
+
+---
+
+## Como organizamos informação?
+
+---
+Imagina que tens:
+<div style="max-height: 300px; overflow-y: auto;">
+<ul>
+<li>Horários</li>
+<li>Futebol</li>
+<li>Contactos</li>
+<li>Matemática</li>
+<li>Música</li>
+<li>Professores</li>
+<li>Trabalhos</li>
+<li>Notícias</li>
+<li>Jogos</li>
+<li>Salas</li>
+<li>Fotografias</li>
+<li>Vídeos</li>
+</ul>
+</div>
+---
+
+> **Como organizarias esta informação para conseguires encontrar rapidamente aquilo que procuras?**
+
+---
+
+
+## Actividade — Organiza a informação
+
+Cria um **mapa mental** para organizar a informação anterior.
+
+---
+
+### Actividade — Organiza a informação
+
+Pensa:
+
+- O que pertence ao mesmo grupo?
+- Que categorias podes criar?
+- O que deve ficar no centro?
+- Existem informações que podem pertencer a mais do que uma categoria?
+
+
+
+---
+
+## 🗺️ Mapas mentais
+
+Um mapa mental permite representar:
+
+- Uma ideia principal
+- Categorias
+- Subcategorias
+- Relações entre ideias
+
+
+---
+
+## Exemplo:
+
+```text
+                 INFORMAÇÃO
+                      │
+          ┌───────────┼───────────┐
+          ▼           ▼           ▼
+       Escola       Lazer    Comunicação
+          │           │           │
+      ┌───┼───┐    ┌──┼──┐    ┌──┼──┐
+      ▼   ▼   ▼    ▼  ▼  ▼    ▼  ▼  ▼
+    Aulas Notas Salas Jogos Música Chat Contactos
+```
+
+--- 
+
+
+> **A organização torna a informação mais fácil de compreender.**
+
+---
+
+## 📋 Existem outras formas de organizar?
+
+---
+
+### Lista
+
+Informação simples ou sequencial.
+
+### Tabela
+
+Comparar vários dados.
+
+### Hierarquia
+
+Organizar informação por níveis.
+
+### Fluxograma
+
+Representar passos e decisões.
+
+### Mapa mental
+
+Explorar ideias e relações.
+
+---
+
+## 🤔 Qual escolherias?
+
+Que representação utilizarias para:
+
+**1.** As notas de uma turma?
+
+**2.** As categorias de uma loja online?
+
+**3.** Os passos para instalar uma aplicação?
+
+**4.** Ideias para organizar uma viagem?
+
+**5.** Os conteúdos de uma disciplina?
+
+> **Não existe uma representação ideal para todos os problemas.**
+
+---
+
+## 🧪 Actividade — Escolhe e justifica
+
+Para cada situação:
+
+1. Escolhe uma forma de organização.
+2. Justifica a tua escolha.
+
+| Situação | Representação |
+|---|---|
+| Notas dos alunos | ❓ |
+| Categorias de uma loja | ❓ |
+| Instalar uma aplicação | ❓ |
+| Ideias para uma viagem | ❓ |
+| Disciplinas de um aluno | ❓ |
+
+---
+
+## 📝 Desafio — Organiza esta informação
+
+Uma associação juvenil quer criar uma aplicação.
+
+A aplicação deve apresentar:
+
+- Notícias
+- Eventos
+- Actividades
+- Contactos
+- Documentos
+- Horários
+- Fotografias
+- Inscrições
+
+> **Como organizarias esta informação?**
+
+Podes utilizar:
+
+- Mapa mental
+- Hierarquia
+- Diagrama
+- Outra representação
+
+**Justifica as tuas escolhas.**
+
+---
+
+## 📱 Uma aplicação também organiza informação
+
+Uma aplicação não deve simplesmente colocar toda a informação no mesmo sítio.
+
+É necessário decidir:
+
+- Que informação existe?
+- Como é agrupada?
+- O que aparece primeiro?
+- Como chegamos a cada informação?
+
+Exemplo:
+
+```text
+                 APP ESCOLA
+                      │
+        ┌─────────────┼─────────────┐
+        ▼             ▼             ▼
+    Horários       Trabalhos     Contactos
+        │
+    ┌───┼───┐
+    ▼   ▼   ▼
+   7.º  8.º  9.º
+```
+
+---
+
+## 🧱 Da informação aos ecrãs
+
+A estrutura anterior pode transformar-se numa aplicação:
+
+```text
+APP ESCOLA
+    │
+    ├── Horários
+    │      └── 9.º Ano
+    │             └── 9.º A
+    │
+    ├── Trabalhos
+    │
+    └── Contactos
+```
+
+Cada parte da estrutura pode corresponder a:
+
+- Um ecrã
+- Um botão
+- Um menu
+- Uma lista
+- Outra forma de navegação
+
+---
+
+## 🧭 Navegação
+
+**Navegação** é o percurso que o utilizador faz dentro de uma aplicação.
+
+Por exemplo:
+
+```text
+Início
+  │
+  ▼
+Horários
+  │
+  ▼
+9.º Ano
+  │
+  ▼
+9.º A
+  │
+  ▼
+Segunda-feira
+```
+
+> **Uma boa aplicação deve tornar claro para onde podemos ir.**
+
+---
+
+## 🧩 Actividade — Encontra o caminho
+
+Imagina uma aplicação escolar.
+
+O utilizador quer consultar:
+
+> **O horário de terça-feira do 9.º A.**
+
+Desenha o caminho que deve seguir desde o ecrã inicial.
+
+**Início → ? → ? → ?**
+
+---
+
+## 📱 O que torna um dispositivo "móvel"?
+
+Um dispositivo móvel combina:
+
+- **Hardware**
+- **Sistema operativo**
+- **Sensores**
+- **Aplicações**
+- **Ligação à Internet**
+
+Exemplos de sensores:
+
+📍 GPS  
+📷 Câmara  
+🧭 Bússola  
+📐 Acelerómetro  
+💡 Sensor de luminosidade
+
+---
+
+## ⚙️ Sistemas Operativos Móveis
+
+O sistema operativo:
+
+- Controla o **hardware**
+- Gere a **memória**
+- Gere as **aplicações**
+- Controla o acesso aos **sensores**
+- Gere o consumo de **energia**
+- Permite a interação com o dispositivo
+
+Exemplos:
+
+- **Android**
+- **iOS**
+
+---
+
+## 🐧 Android e Linux
+
+O Android utiliza o **kernel Linux** como parte da sua base.
+
+No entanto:
+
+> **Android não é simplesmente "Linux de desktop num telemóvel".**
+
+Foi adaptado para:
+
+- Ecrãs tácteis
+- Baterias
+- Sensores
+- Hardware móvel
+- Aplicações móveis
+
+💬 **Pensa:**
+
+> Porque é que um telemóvel tem necessidades diferentes de um computador?
+
+---
+
+## 🧭 Evolução dos dispositivos móveis
+
+Os dispositivos móveis foram ganhando novas capacidades.
+
+**Telemóvel**
+
+→ chamadas e SMS
+
+**Smartphone**
+
+→ Internet + aplicações
+
+**Smartphone moderno**
+
+→ GPS + câmara + biometria + pagamentos + sensores + IA
+
+> **Qual destas funcionalidades mudou mais a forma como usamos o telemóvel?**
+
+---
+
+## 🔍 Actividade — Analisa uma aplicação
+
+Escolhe uma aplicação que utilizes frequentemente.
+
+Descobre:
+
+- Que sensores utiliza?
+- Precisa de Internet?
+- Que dados recebe?
+- Que dados produz?
+- Que funcionalidades dependem do dispositivo?
+
+⏱️ **10 minutos**
+
+---
+
+## 🔐 Segurança Móvel
+
+Um telemóvel pode armazenar:
+
+- Fotografias
+- Mensagens
+- Contactos
+- Localização
+- Contas
+- Documentos
+- Dados pessoais
+
+Por isso devemos:
+
+- Manter o sistema actualizado
+- Utilizar PIN, palavra-passe ou biometria
+- Fazer cópias de segurança
+- Instalar aplicações de fontes confiáveis
+- Verificar permissões
+
+---
+
+## 👁️ Permissões das aplicações
+
+Uma aplicação pode pedir acesso a:
+
+📷 Câmara  
+🎤 Microfone  
+📍 Localização  
+👥 Contactos  
+📁 Fotografias  
+🔔 Notificações
+
+Mas:
+
+> **Uma aplicação deve ter acesso a tudo aquilo que pede?**
+
+---
+
+## 🧩 Actividade — Precisa mesmo dessa permissão?
+
+| Aplicação | Localização | Câmara | Microfone | Contactos |
+|---|---|---|---|---|
+| Calculadora | ❓ | ❓ | ❓ | ❓ |
+| Mapas | ❓ | ❓ | ❓ | ❓ |
+| Videoconferência | ❓ | ❓ | ❓ | ❓ |
+| Jogo | ❓ | ❓ | ❓ | ❓ |
+
+> **Escolhe uma resposta e justifica-a.**
+
+---
+
+## 🚨 Instalavas esta aplicação?
+
+### Calculadora PRO MAX
+
+- 2 MB
+- 10 000 downloads
+- Pede acesso aos contactos
+- Pede acesso ao microfone
+- Descarregada de um site desconhecido
+- Promete "cálculos 100% mais rápidos"
+
+🟢 **Instalava**
+
+🟡 **Investig

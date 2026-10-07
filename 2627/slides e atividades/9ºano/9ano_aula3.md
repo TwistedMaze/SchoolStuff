@@ -78,7 +78,7 @@ ou
 | Educação | Duolingo | Aprendizagem |
 | Entretenimento | Spotify | Música |
 | Utilitários | Google Maps | Navegação |
-
+<!-- 
 🎯 Atividade:
 > Analisa uma app e identifica tipo, permissões e modelo de negócio.
 
@@ -114,4 +114,4 @@ ou
 4. Apresenta em 1 minuto
 
 🎯 Avaliação:
-> Clareza, segurança, acessibilidade e criatividade.
+> Clareza, segurança, acessibilidade e criatividade. -->
