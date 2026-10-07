@@ -22,6 +22,39 @@ transition: slide
 
 ## Como organizamos informação?
 
+
+
+
+---
+
+## 🗺️ Mapas mentais
+
+Um mapa mental permite representar:
+
+- Uma ideia principal
+- Categorias
+- Subcategorias
+- Relações entre ideias
+
+
+---
+
+## Exemplo:
+
+```text
+                 INFORMAÇÃO
+                      │
+          ┌───────────┼───────────┐
+          ▼           ▼           ▼
+       Escola       Lazer    Comunicação
+          │           │           │
+      ┌───┼───┐    ┌──┼──┐    ┌──┼──┐
+      ▼   ▼   ▼    ▼  ▼  ▼    ▼  ▼  ▼
+    Aulas Notas Salas Jogos Música Chat Contactos
+```
+
+--- 
+
 ---
 Imagina que tens:
 <div style="max-height: 300px; overflow-y: auto;">
@@ -62,37 +95,8 @@ Pensa:
 - O que deve ficar no centro?
 - Existem informações que podem pertencer a mais do que uma categoria?
 
-
-
 ---
 
-## 🗺️ Mapas mentais
-
-Um mapa mental permite representar:
-
-- Uma ideia principal
-- Categorias
-- Subcategorias
-- Relações entre ideias
-
-
----
-
-## Exemplo:
-
-```text
-                 INFORMAÇÃO
-                      │
-          ┌───────────┼───────────┐
-          ▼           ▼           ▼
-       Escola       Lazer    Comunicação
-          │           │           │
-      ┌───┼───┐    ┌──┼──┐    ┌──┼──┐
-      ▼   ▼   ▼    ▼  ▼  ▼    ▼  ▼  ▼
-    Aulas Notas Salas Jogos Música Chat Contactos
-```
-
---- 
 
 
 > **A organização torna a informação mais fácil de compreender.**
@@ -107,21 +111,22 @@ Um mapa mental permite representar:
 
 Informação simples ou sequencial.
 
+---
+
 ### Tabela
 
 Comparar vários dados.
+
+---
 
 ### Hierarquia
 
 Organizar informação por níveis.
 
+---
 ### Fluxograma
 
 Representar passos e decisões.
-
-### Mapa mental
-
-Explorar ideias e relações.
 
 ---
 
@@ -131,32 +136,41 @@ Que representação utilizarias para:
 
 **1.** As notas de uma turma?
 
+---
+## 🤔 Qual escolherias?
+
+Que representação utilizarias para:
+
 **2.** As categorias de uma loja online?
 
-**3.** Os passos para instalar uma aplicação?
-
-**4.** Ideias para organizar uma viagem?
-
-**5.** Os conteúdos de uma disciplina?
-
-> **Não existe uma representação ideal para todos os problemas.**
 
 ---
 
-## 🧪 Actividade — Escolhe e justifica
+## 🤔 Qual escolherias?
 
-Para cada situação:
+Que representação utilizarias para:
 
-1. Escolhe uma forma de organização.
-2. Justifica a tua escolha.
+**3.** Os passos para instalar uma aplicação?
 
-| Situação | Representação |
-|---|---|
-| Notas dos alunos | ❓ |
-| Categorias de uma loja | ❓ |
-| Instalar uma aplicação | ❓ |
-| Ideias para uma viagem | ❓ |
-| Disciplinas de um aluno | ❓ |
+
+---
+## 🤔 Qual escolherias?
+
+Que representação utilizarias para:
+
+**4.** Ideias para organizar uma viagem?
+
+
+---
+## 🤔 Qual escolherias?
+
+Que representação utilizarias para:
+
+**5.** Os conteúdos de uma disciplina?
+
+---
+
+> **Não existe uma representação ideal para todos os problemas.**
 
 ---
 
