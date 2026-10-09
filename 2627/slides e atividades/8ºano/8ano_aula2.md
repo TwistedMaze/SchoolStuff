@@ -1,5 +1,5 @@
 ---
-title: TIC - 8º ano: Repositorios digitais e licenças
+title: TIC - 8º ano - Repositorios digitais e licenças
 theme:  dracula
 transition: slide
 ---

@@ -1,5 +1,5 @@
 ---
-title: TIC - 8º ano: A Inteligência Artificial
+title: TIC - 8º ano - A Inteligência Artificial
 theme:  dracula
 transition: slide
 ---

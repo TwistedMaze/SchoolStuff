@@ -1,5 +1,5 @@
 ---
-title: TIC - 8º ano: Dispositivos Móveis e representação de informação 1
+title: TIC - 8º ano- Websites e representação de informação 1
 theme: dracula
 transition: slide
 ---
@@ -19,6 +19,8 @@ Antes de criar um website, precisamos de saber:
 - Como estão relacionadas?
 - Como vamos organizar o conteúdo?
 
+---
+
 > **Uma boa organização torna a informação mais fácil de compreender.**
 
 ---
@@ -34,7 +36,10 @@ Podemos representar informação através de:
 - Esquemas
 - **Mapas mentais**
 
-Cada forma pode ser mais adequada para uma determinada situação.
+
+---
+
+>Cada forma pode ser mais adequada para uma determinada situação.
 
 ---
 
@@ -48,20 +53,29 @@ Cada ramo pode conter ideias mais específicas.
 
 ---
 
-### Exemplo
+# Exemplo
 
-# TURISMO EM PORTUGAL
+--- 
 
+---
+### TURISMO EM PORTUGAL
+
+---
+
+### TURISMO EM PORTUGAL
 - **Destinos**
   - Lisboa
   - Porto
   - Algarve
 
+---
+### TURISMO EM PORTUGAL
 - **Gastronomia**
   - Pratos
   - Doces
   - Bebidas
-
+---
+### TURISMO EM PORTUGAL
 - **Cultura**
   - Museus
   - Monumentos
@@ -71,11 +85,12 @@ Cada ramo pode conter ideias mais específicas.
 
 ### Um mapa mental não é um texto
 
-❌ **Texto**
 
 > Lisboa é a capital de Portugal e é uma cidade com muitos monumentos, museus e locais de interesse turístico.
 
-✅ **Mapa mental**
+---
+
+**Mapa mental**
 
 **LISBOA**
 
@@ -94,15 +109,30 @@ Cada ramo pode conter ideias mais específicas.
 
 Qual é a ideia principal?
 
+---
+### Como construir um mapa mental?
+
 **2. Identificar as ideias principais**
 
 Quais são os grandes assuntos relacionados?
+
+---
+
+### Como construir um mapa mental?
 
 **3. Criar os ramos**
 
 Liga as ideias principais ao tema.
 
+---
+
+### Como construir um mapa mental?
+
 **4. Desenvolver as ideias**
+
+---
+
+### Como construir um mapa mental?
 
 Adiciona exemplos e informação mais específica.
 
@@ -121,7 +151,7 @@ Um bom mapa mental:
 
 ---
 
-## Atividade
+<!-- ## Atividade
 
 # Organiza a informação
 
@@ -162,7 +192,7 @@ O mapa será utilizado mais tarde para:
 
 **Pesquisar → Planear → Criar o website**
 
-> **Primeiro organizamos a informação. Depois decidimos como a apresentar.**
+> **Primeiro organizamos a informação. Depois decidimos como a apresentar.** -->
 
 ---
 

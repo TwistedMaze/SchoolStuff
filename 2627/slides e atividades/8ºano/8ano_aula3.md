@@ -1,5 +1,5 @@
 ---
-title: TIC - 8º ano: acessibilidade e interfaces
+title: TIC - 8º ano - acessibilidade e interfaces
 theme:  dracula
 transition: slide
 ---

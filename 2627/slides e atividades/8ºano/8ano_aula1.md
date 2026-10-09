@@ -1,5 +1,5 @@
 ---
-title: TIC - 8º ano: A Internet
+title: TIC - 8º ano - A Internet
 theme:  dracula
 transition: slide
 ---
