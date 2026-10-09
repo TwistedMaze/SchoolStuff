@@ -315,7 +315,7 @@ O modelo dá a sua resposta com base no que aprendeu.
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {"_":["./2627/slides e atividades"],"static":"docs"}, queryOptions);
+      var options = extend(defaultOptions, {"_":["./2627/slides e atividades/"],"static":"docs"}, queryOptions);
     </script>
 
 
@@ -332,7 +332,10 @@ O modelo dá a sua resposta com base no que aprendeu.
       const mermaidOptions = extend({ startOnLoad: false }, {});
       mermaid.startOnLoad = false;
       mermaid.initialize(mermaidOptions);
-      const cb = function (event) { mermaid.init(mermaidOptions, '.stack.present>.present pre code.mermaid'); };
+      const cb = function (event) {
+        mermaid.init(mermaidOptions, '.stack.present > .present pre code.mermaid');
+        mermaid.init(mermaidOptions, '.slides > .present:not(.stack) pre code.mermaid');
+      }
       Reveal.addEventListener('ready', cb);
       Reveal.addEventListener('slidetransitionend', cb);
     </script>
