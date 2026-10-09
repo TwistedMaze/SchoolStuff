@@ -169,18 +169,28 @@ Que representação utilizarias para:
 
 Uma associação juvenil quer criar uma aplicação.
 
+<div style="max-height: 300px; overflow-y: auto;">
+
 A aplicação deve apresentar:
+<ul>
+<li> Notícias</li>
+<li> Eventos</li>
+<li> Actividades</li>
+<li> Contactos</li>
+<li> Documentos</li>
+<li> Horários</li>
+<li> Fotografias</li>
+<li> Inscrições</li>
+<ul>
 
-- Notícias
-- Eventos
-- Actividades
-- Contactos
-- Documentos
-- Horários
-- Fotografias
-- Inscrições
+---
 
+## 📝 Desafio — Organiza esta informação
 > **Como organizarias esta informação?**
+
+---
+
+## 📝 Desafio — Organiza esta informação
 
 Podes utilizar:
 
@@ -189,13 +199,14 @@ Podes utilizar:
 - Diagrama
 - Outra representação
 
-**Justifica as tuas escolhas.**
-
 ---
 
 ## 📱 Uma aplicação também organiza informação
 
 Uma aplicação não deve simplesmente colocar toda a informação no mesmo sítio.
+
+
+---
 
 É necessário decidir:
 
@@ -204,6 +215,8 @@ Uma aplicação não deve simplesmente colocar toda a informação no mesmo sít
 - O que aparece primeiro?
 - Como chegamos a cada informação?
 
+---
+<!-- 
 Exemplo:
 
 ```text
@@ -216,14 +229,14 @@ Exemplo:
     ┌───┼───┐
     ▼   ▼   ▼
    7.º  8.º  9.º
-```
+``` -->
 
 ---
 
 ## 🧱 Da informação aos ecrãs
 
 A estrutura anterior pode transformar-se numa aplicação:
-
+<!-- 
 ```text
 APP ESCOLA
     │
@@ -234,7 +247,10 @@ APP ESCOLA
     ├── Trabalhos
     │
     └── Contactos
-```
+``` -->
+
+---
+## 🧱 Da informação aos ecrãs
 
 Cada parte da estrutura pode corresponder a:
 
@@ -249,6 +265,9 @@ Cada parte da estrutura pode corresponder a:
 ## 🧭 Navegação
 
 **Navegação** é o percurso que o utilizador faz dentro de uma aplicação.
+
+
+---
 
 Por exemplo:
 
@@ -267,6 +286,11 @@ Horários
   ▼
 Segunda-feira
 ```
+
+---
+
+## 🧭 Navegação
+
 
 > **Uma boa aplicação deve tornar claro para onde podemos ir.**
 
