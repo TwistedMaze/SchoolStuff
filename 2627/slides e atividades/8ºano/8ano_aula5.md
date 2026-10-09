@@ -1,5 +1,5 @@
 ---
-title: TIC - 8º ano
+title: TIC - 8º ano: Dispositivos Móveis e representação de informação 1
 theme: dracula
 transition: slide
 ---

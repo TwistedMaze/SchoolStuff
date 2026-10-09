@@ -23,8 +23,6 @@ transition: slide
 ## Como organizamos informação?
 
 
-
-
 ---
 
 ## 🗺️ Mapas mentais
@@ -76,13 +74,6 @@ Imagina que tens:
 ---
 
 > **Como organizarias esta informação para conseguires encontrar rapidamente aquilo que procuras?**
-
----
-
-
-## Actividade — Organiza a informação
-
-Cria um **mapa mental** para organizar a informação anterior.
 
 ---
 
