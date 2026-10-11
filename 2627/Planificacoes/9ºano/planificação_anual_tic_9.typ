@@ -106,7 +106,19 @@
       [Integração de Programas com dispositivos de IoT]
     )
   ],
-  table.cell(rowspan: 4)[],
+  table.cell(rowspan: 4)[
+    #list(spacing:50pt,
+      [Utilizar aplicações diversificadas.],
+      [Aplicar, através de propostas de atividades, os procedimentos a realizar na utilização das aplicações.],
+      [Desenvolver projetos, individuais e/ou em grupo, em articulação com outras áreas disciplinares, projetos da escola ou outras instituições.],
+      [Fomentar práticas seguras de utilização de ferramentas digitais.],
+      [Promover a proteção da privacidade de informação.],
+      [Fomentar a pesquisa e análise de informação, de forma crítica.],
+      [Promover o respeito pelos
+    direitos de autor e de propriedade intelectual.]
+
+    ) 
+  ],
   table.cell(rowspan: 4)[
     #list(
       body-indent: 3pt,
