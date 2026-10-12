@@ -51,6 +51,13 @@ jobs:
           --base /SchoolStuff/7ano-planeamento-organizacao/
           --out "$GITHUB_WORKSPACE/_site/7ano-planeamento-organizacao"
 
+      - name: Build 7th grade mind maps workshop
+        run: >-
+          pnpm exec slidev build
+          "2627/slides e atividades/7ºano/7ano_MapasMentais.md"
+          --base /SchoolStuff/7ano-mapas-mentais/
+          --out "$GITHUB_WORKSPACE/_site/7ano-mapas-mentais"
+
       - name: Build operating systems deck
         run: >-
           pnpm exec slidev build
@@ -110,7 +117,7 @@ jobs:
       - name: Build 9th grade mind maps deck
         run: >-
           pnpm exec slidev build
-          "2627/slides e atividades/9ºano/9ano_OrganizacaoInformacao.md"
+          "2627/slides e atividades/9ºano/9ano_MapasMentais.md"
           --base /SchoolStuff/9ano-aula3-mapas-mentais/
           --out "$GITHUB_WORKSPACE/_site/9ano-aula3-mapas-mentais"
 
