@@ -15,6 +15,7 @@
   "type": "module",
   "devDependencies": {
     "@slidev/cli": "^53.0.0",
-    "@slidev/theme-default": "^0.25.0"
+    "@slidev/theme-default": "^0.25.0",
+    "slidev-theme-dracula": "^0.2.5"
   }
 }
