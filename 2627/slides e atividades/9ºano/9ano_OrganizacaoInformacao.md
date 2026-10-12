@@ -133,6 +133,7 @@ Que representação utilizarias para:
 1) As notas de uma turma?
 
 ---
+
 ## 🤔 Qual escolherias?
 
 Que representação utilizarias para:
@@ -150,6 +151,7 @@ Que representação utilizarias para:
 
 
 ---
+
 ## 🤔 Qual escolherias?
 
 Que representação utilizarias para:
@@ -158,6 +160,7 @@ Que representação utilizarias para:
 
 
 ---
+
 ## 🤔 Qual escolherias?
 
 Que representação utilizarias para:
