@@ -4,13 +4,15 @@ theme: dracula
 transition: slide
 ---
 
-## Representação da Informação
-
-**De uma ideia para uma estrutura**
+# Representação da Informação
 
 ---
 
-### Porque precisamos de organizar a informação?
+fact: **De uma ideia para uma estrutura**
+
+---
+
+## Porque precisamos de organizar a informação?
 
 Antes de criar um website, precisamos de saber:
 
@@ -63,7 +65,7 @@ Cada ramo pode conter ideias mais específicas.
 ---
 
 ### TURISMO EM PORTUGAL
-- **Destinos**
+ *Destinos*
   - Lisboa
   - Porto
   - Algarve

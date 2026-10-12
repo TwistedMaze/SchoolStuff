@@ -6,11 +6,13 @@ transition: slide
 
 
 
-## Investigar e Pesquisar
+# Investigar e Pesquisar
 
-### A Internet IV
+## A Internet IV
+
 ---
-### Inteligência Artificial
+
+## Inteligência Artificial
 
 - A IA pode ajudar-nos a **pesquisar informação** na Internet.
 - Pode explicar temas difíceis de forma simples.
@@ -19,7 +21,7 @@ transition: slide
 
 ---
 
-### O que a IA faz?
+## O que a IA faz?
 
 - Analisa grandes quantidades de informação.
 - Procura padrões e ligações.
@@ -28,7 +30,7 @@ transition: slide
 
 ---
 
-### IA vs Motores de Busca
+## IA vs Motores de Busca
 
 - **Motores de busca** → mostram páginas.
 - **IA** → cria uma resposta com base em várias páginas.
@@ -36,7 +38,7 @@ transition: slide
 
 ---
 
-### Como usar IA para pesquisar
+## Como usar IA para pesquisar
 
 1. Fazer uma pergunta clara.
 2. Ler a resposta com atenção.
@@ -46,7 +48,7 @@ transition: slide
 
 ---
 
-### Exemplos de perguntas úteis
+## Exemplos de perguntas úteis
 
 - "Explica-me a fotossíntese de forma simples."
 - "Quais são os pontos principais da Revolução Francesa?"
@@ -55,7 +57,7 @@ transition: slide
 
 ---
 
-### Cuidados importantes
+## Cuidados importantes
 
 - A IA pode cometer erros.
 - Nem sempre mostra fontes.
@@ -64,7 +66,7 @@ transition: slide
 
 ---
 
-### Boas práticas
+## Boas práticas
 
 - Usar IA como **primeiro passo** da pesquisa.
 - Depois, verificar a informação em:
@@ -72,14 +74,5 @@ transition: slide
   - repositórios digitais
   - motores de busca
 - Nunca copiar sem pensar.
-
----
-
-### Atividade rápida
-
-1. Faz uma pergunta à IA sobre um tema escolar.
-2. Lê a resposta.
-3. Verifica a informação em 2 sites diferentes.
-4. Escreve um pequeno resumo com as tuas palavras.
 
 ---
