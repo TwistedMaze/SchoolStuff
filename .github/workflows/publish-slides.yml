@@ -58,6 +58,48 @@ jobs:
           --base /SchoolStuff/7ano-sistemas-operativos/
           --out "$GITHUB_WORKSPACE/_site/7ano-sistemas-operativos"
 
+      - name: Build 8th grade Internet deck
+        run: >-
+          pnpm exec slidev build
+          "2627/slides e atividades/8ºano/8ano_aula1.md"
+          --base /SchoolStuff/8ano-aula1/
+          --out "$GITHUB_WORKSPACE/_site/8ano-aula1"
+
+      - name: Build 8th grade repositories deck
+        run: >-
+          pnpm exec slidev build
+          "2627/slides e atividades/8ºano/8ano_aula2.md"
+          --base /SchoolStuff/8ano-aula2/
+          --out "$GITHUB_WORKSPACE/_site/8ano-aula2"
+
+      - name: Build 8th grade accessibility deck
+        run: >-
+          pnpm exec slidev build
+          "2627/slides e atividades/8ºano/8ano_aula3.md"
+          --base /SchoolStuff/8ano-aula3/
+          --out "$GITHUB_WORKSPACE/_site/8ano-aula3"
+
+      - name: Build 8th grade AI deck
+        run: >-
+          pnpm exec slidev build
+          "2627/slides e atividades/8ºano/8ano_aula4.md"
+          --base /SchoolStuff/8ano-aula4/
+          --out "$GITHUB_WORKSPACE/_site/8ano-aula4"
+
+      - name: Build 8th grade representation deck
+        run: >-
+          pnpm exec slidev build
+          "2627/slides e atividades/8ºano/8ano_aula5.md"
+          --base /SchoolStuff/8ano-aula5/
+          --out "$GITHUB_WORKSPACE/_site/8ano-aula5"
+
+      - name: Build 8th grade mind maps workshop
+        run: >-
+          pnpm exec slidev build
+          "2627/slides e atividades/8ºano/8ano_aula6.md"
+          --base /SchoolStuff/8ano-aula6/
+          --out "$GITHUB_WORKSPACE/_site/8ano-aula6"
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

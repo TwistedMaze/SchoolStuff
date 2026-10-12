@@ -1,433 +1,125 @@
 ---
-# try also 'default' to start simple
-theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
-# apply any unocss classes to the current slide
-class: 'text-center'
-# some information about the slides, markdown enabled
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+theme: dracula
+title: TIC · 8.º ano · Aula 6 · Oficina de mapas mentais
 transition: slide-left
-title: Welcome to Slidev
-comark: true
+mdc: true
+layout: cover
 ---
 
-# Welcome to Slidev
+# Oficina de mapas mentais
 
-Presentation slides for developers
-
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" flex="~ justify-center items-center gap-2" hover="bg-white bg-opacity-10">
-    Press Space for next page <div class="i-carbon:arrow-right inline-block"/>
-  </span>
-</div>
-
-<div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <div class="i-carbon:edit" />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub" title="Open in GitHub"
-    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
-</div>
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
----
-transition: fade-out
----
-
-# What is Slidev?
-
-Slidev is a slide maker and accompanying presentation tool designed for developers. It consists of the following features:
-
-- 📝 **Text-based** - focus on the content with Markdown, and apply styles later
-- 🎨 **Themable** - themes can be shared and used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your slides
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-
-<br>
-<br>
-
-Read more about Slidev in [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tags in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-<!--
-Here is another comment.
--->
+## Aula prática · organizar ideias em exercícios
 
 ---
 layout: default
 ---
 
-# Table of contents
+# Objetivo da aula
 
-```html
-<Toc minDepth="1" maxDepth="1"></Toc>
-```
-
-<Toc maxDepth="1"></Toc>
-
----
-transition: slide-up
-level: 2
----
-
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's control panel, [learn more](https://sli.dev/guide/navigation.html)
-
-## Keyboard Shortcuts
-
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
-
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-layout: image-right
-image: https://cover.sli.dev
----
-
-# Code
-
-Use code snippets and get automatic highlighting, and even types hover![^1]
-
-```ts {all|5|7|7-8|10|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-
-import { computed, ref } from 'vue'
-
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
-
-doubled.value = 2
-```
-
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-<!-- <<< @/snippets/external.ts#snippet -->
-
-<!-- Footer -->
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
-
-<!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
----
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. Adding your own custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
+<div class="mt-9 mx-auto max-w-5xl rounded-xl bg-white/10 p-8">
+  <p class="text-2xl leading-relaxed">Hoje vamos transformar informação em mapas mentais claros, usando um tema central, ramos e palavras-chave.</p>
+  <p class="mt-6 text-xl"><strong>Material:</strong> ficha de trabalho, lápis e cores (ou uma ferramenta digital).</p>
 </div>
 
-<!--
-Presenter notes with **bold**, *italic*, and ~~strike~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
-
 ---
-class: px-20
+layout: default
 ---
 
-# Themes
+# Exercício 1 · identificar as partes
 
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switch between themes on a per-slide basis with just **one change** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
-check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
-
----
-preload: false
----
-
-# Animations
-
-Animations are powered by [@vueuse/motion](https://motion.vueuse.org/).
-
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }">
-  Slidev
-</div>
-```
-
-<div class="w-60 relative mt-6">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
+<div class="mt-7 mx-auto max-w-5xl">
+  <div class="rounded-xl bg-purple-500/40 p-5 text-center text-2xl font-bold">PREPARAR UMA VISITA DE ESTUDO</div>
+  <div class="mt-5 grid grid-cols-3 gap-4 text-center text-lg">
+    <div class="rounded-xl bg-white/10 p-5"><strong>Destino</strong><br>museu · parque</div>
+    <div class="rounded-xl bg-white/10 p-5"><strong>Transporte</strong><br>autocarro · horário</div>
+    <div class="rounded-xl bg-white/10 p-5"><strong>Preparação</strong><br>autorização · lanche</div>
   </div>
+  <p class="mt-6 text-xl">Indica o tema central e os três ramos principais. Que palavras são detalhes?</p>
+</div>
 
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
+---
+layout: default
+---
+
+# Exercício 2 · agrupar palavras
+
+<div class="mt-7 mx-auto max-w-5xl">
+  <p class="text-xl">Organiza estas ideias em ramos para o tema <strong>“Organizar um piquenique”</strong>:</p>
+  <div class="mt-5 rounded-xl bg-white/10 p-6 text-xl leading-relaxed">
+    local · água · toalha · fruta · transporte · jogos · sandes · lixo · hora de saída · guardanapos · regras do parque · bola
+  </div>
+  <p class="mt-6 text-xl">Cria pelo menos três ramos. Há palavras que podem pertencer ao mesmo ramo?</p>
+</div>
+
+---
+layout: default
+---
+
+# Exercício 3 · cria o teu mapa
+
+<div class="mt-6 grid grid-cols-2 gap-8">
+  <div class="rounded-xl bg-white/10 p-7">
+    <h2 class="text-2xl mb-4">Escolhe um tema</h2>
+    <ul class="space-y-3 text-lg">
+      <li>O website que gostarias de criar</li>
+      <li>Uma escola mais sustentável</li>
+      <li>Uma atividade de tempos livres</li>
+    </ul>
+  </div>
+  <div class="rounded-xl bg-white/10 p-7">
+    <h2 class="text-2xl mb-4">O teu mapa deve ter</h2>
+    <ul class="space-y-3 text-lg">
+      <li>Um tema central.</li>
+      <li>Quatro ou mais ramos principais.</li>
+      <li>Dois níveis de informação.</li>
+      <li>Palavras-chave e exemplos.</li>
+    </ul>
   </div>
 </div>
 
-<!-- vue script setup scripts can be directly used in markdown, and will only affect the current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
+---
+layout: default
+---
 
-<div
-  v-motion
-  :initial="{ x:35, y: 40, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
+# Exercício 4 · revisão a pares
 
-[Learn More](https://sli.dev/guide/animations.html#motion)
-
+<div class="mt-8 mx-auto max-w-5xl">
+  <p class="text-2xl">Troca o mapa com um colega e dá feedback construtivo.</p>
+  <div class="mt-6 grid grid-cols-2 gap-5">
+    <div class="rounded-xl bg-white/10 p-6 text-xl">Consigo identificar o tema central?</div>
+    <div class="rounded-xl bg-white/10 p-6 text-xl">Os ramos agrupam ideias relacionadas?</div>
+    <div class="rounded-xl bg-white/10 p-6 text-xl">As palavras-chave são claras?</div>
+    <div class="rounded-xl bg-white/10 p-6 text-xl">Há um detalhe que podia ser acrescentado?</div>
+  </div>
 </div>
 
 ---
-
-# LaTeX
-
-LaTeX is supported out-of-box powered by [KaTeX](https://katex.org/).
-
-<br>
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$ {1|3|all}
-\begin{array}{c}
-
-\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &
-= \frac{4\pi}{c}\vec{\mathbf{j}}    \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
-
-\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
-
-\nabla \cdot \vec{\mathbf{B}} & = 0
-
-\end{array}
-$$
-
-<br>
-
-[Learn more](https://sli.dev/guide/syntax#latex)
-
+layout: default
 ---
 
-# Diagrams
+# Melhorar antes de entregar
 
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
-
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectivness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
+<div class="mt-8 grid grid-cols-2 gap-8">
+  <div class="rounded-xl bg-white/10 p-7">
+    <h2 class="text-2xl mb-4">Revê</h2>
+    <ul class="space-y-4 text-xl">
+      <li>Move ideias que estejam no ramo errado.</li>
+      <li>Substitui frases longas por palavras-chave.</li>
+      <li>Acrescenta detalhes em falta.</li>
+    </ul>
+  </div>
+  <div class="rounded-xl bg-white/10 p-7">
+    <h2 class="text-2xl mb-4">Entrega</h2>
+    <p class="text-xl leading-relaxed">Entrega o mapa e a ficha. Deves conseguir explicar por que organizaste as ideias desta forma.</p>
+  </div>
 </div>
-
-[Learn More](https://sli.dev/guide/syntax.html#diagrams)
 
 ---
 layout: center
-class: text-center
 ---
 
-# Learn More
+# Bilhete de saída
 
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+<div class="mt-6 mx-auto max-w-4xl rounded-xl bg-white/10 p-8 text-2xl leading-relaxed">
+  Qual foi a decisão mais importante que tomaste ao organizar o teu mapa mental?
+</div>

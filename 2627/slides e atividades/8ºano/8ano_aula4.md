@@ -1,78 +1,125 @@
 ---
-title: TIC - 8º ano - A Inteligência Artificial
-theme:  dracula
-transition: slide
+theme: dracula
+title: TIC · 8.º ano · Aula 4 · Inteligência Artificial
+transition: slide-left
+mdc: true
+layout: cover
 ---
 
+# Inteligência Artificial
 
-
-# Investigar e Pesquisar
-
-## A Internet IV
+## Uma ajuda para pesquisar — com espírito crítico
 
 ---
-
-## Inteligência Artificial
-
-- A IA pode ajudar-nos a **pesquisar informação** na Internet.
-- Pode explicar temas difíceis de forma simples.
-- Pode resumir textos longos.
-- Pode sugerir palavras-chave para pesquisar melhor.
-
+layout: default
 ---
 
-## O que a IA faz?
+# Como pode ajudar?
 
-- Analisa grandes quantidades de informação.
-- Procura padrões e ligações.
-- Cria respostas com base em vários textos.
-- Ajuda a encontrar ideias rapidamente.
-
----
-
-## IA vs Motores de Busca
-
-- **Motores de busca** → mostram páginas.
-- **IA** → cria uma resposta com base em várias páginas.
-- Ambos são úteis, mas funcionam de forma diferente.
-
----
-
-## Como usar IA para pesquisar
-
-1. Fazer uma pergunta clara.
-2. Ler a resposta com atenção.
-3. Confirmar a informação noutros sites.
-4. Comparar com fontes reais.
-5. Resumir o que aprendemos.
+<div class="mt-8 grid grid-cols-2 gap-6">
+  <div class="rounded-xl bg-white/10 p-7">
+    <h2 class="text-2xl mb-4">Explicar</h2>
+    <p class="text-xl">Pode apresentar um tema com palavras mais simples.</p>
+  </div>
+  <div class="rounded-xl bg-white/10 p-7">
+    <h2 class="text-2xl mb-4">Resumir</h2>
+    <p class="text-xl">Pode ajudar a identificar ideias principais num texto.</p>
+  </div>
+  <div class="rounded-xl bg-white/10 p-7">
+    <h2 class="text-2xl mb-4">Sugerir</h2>
+    <p class="text-xl">Pode propor palavras-chave ou perguntas para investigar.</p>
+  </div>
+  <div class="rounded-xl bg-white/10 p-7">
+    <h2 class="text-2xl mb-4">Organizar</h2>
+    <p class="text-xl">Pode ajudar a agrupar ideias e planear uma pesquisa.</p>
+  </div>
+</div>
 
 ---
-
-## Exemplos de perguntas úteis
-
-- "Explica-me a fotossíntese de forma simples."
-- "Quais são os pontos principais da Revolução Francesa?"
-- "Resume este texto em 5 linhas."
-- "Dá-me palavras-chave para pesquisar sobre energia solar."
-
+layout: default
 ---
 
-## Cuidados importantes
+# Motor de busca ou IA?
 
-- A IA pode cometer erros.
-- Nem sempre mostra fontes.
-- Pode misturar informação antiga com nova.
-- Por isso, devemos **confirmar sempre** noutros sites.
-
----
-
-## Boas práticas
-
-- Usar IA como **primeiro passo** da pesquisa.
-- Depois, verificar a informação em:
-  - sites confiáveis
-  - repositórios digitais
-  - motores de busca
-- Nunca copiar sem pensar.
+<div class="mt-8 grid grid-cols-2 gap-8">
+  <div class="rounded-xl bg-white/10 p-8">
+    <h2 class="text-2xl mb-5">Motor de busca</h2>
+    <p class="text-xl leading-relaxed">Apresenta ligações para páginas que podemos consultar e comparar.</p>
+  </div>
+  <div class="rounded-xl bg-white/10 p-8">
+    <h2 class="text-2xl mb-5">Assistente de IA</h2>
+    <p class="text-xl leading-relaxed">Gera uma resposta a partir do pedido. Pode não mostrar todas as fontes que usou.</p>
+  </div>
+</div>
+<p class="mt-7 text-center text-xl">São ferramentas diferentes; nenhuma substitui a verificação das fontes.</p>
 
 ---
+layout: default
+---
+
+# Fazer uma pergunta útil
+
+<div class="mt-8 grid grid-cols-2 gap-8">
+  <div class="rounded-xl bg-white/10 p-7">
+    <h2 class="text-2xl mb-4">Um bom pedido indica</h2>
+    <ul class="space-y-3 text-xl">
+      <li>O tema ou tarefa.</li>
+      <li>O nível de detalhe pretendido.</li>
+      <li>O formato da resposta.</li>
+    </ul>
+  </div>
+  <div class="rounded-xl bg-white/10 p-7">
+    <h2 class="text-2xl mb-4">Exemplo</h2>
+    <p class="text-lg leading-relaxed">“Explica a energia solar a um aluno do 8.º ano e sugere três palavras-chave para pesquisar.”</p>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+# Verificar antes de confiar
+
+<div class="mt-8 mx-auto max-w-5xl">
+  <div class="space-y-4 text-xl">
+    <div class="rounded-xl bg-white/10 p-5">A resposta pode conter erros ou informação desatualizada.</div>
+    <div class="rounded-xl bg-white/10 p-5">Procura as afirmações importantes em fontes fiáveis.</div>
+    <div class="rounded-xl bg-white/10 p-5">Compara informação e regista as fontes consultadas.</div>
+    <div class="rounded-xl bg-white/10 p-5">Não copies uma resposta sem a compreender e sem respeitar as regras da tarefa.</div>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+# Um processo responsável
+
+<div class="mt-9 grid grid-cols-4 gap-5 text-center">
+  <div class="rounded-xl bg-white/10 p-6">
+    <div class="text-3xl mb-3">1</div>
+    <p class="text-lg">Pergunta à IA.</p>
+  </div>
+  <div class="rounded-xl bg-white/10 p-6">
+    <div class="text-3xl mb-3">2</div>
+    <p class="text-lg">Confirma numa fonte.</p>
+  </div>
+  <div class="rounded-xl bg-white/10 p-6">
+    <div class="text-3xl mb-3">3</div>
+    <p class="text-lg">Compara e pensa.</p>
+  </div>
+  <div class="rounded-xl bg-white/10 p-6">
+    <div class="text-3xl mb-3">4</div>
+    <p class="text-lg">Escreve pelas tuas palavras.</p>
+  </div>
+</div>
+
+---
+layout: center
+---
+
+# Mini-desafio
+
+<div class="mt-6 mx-auto max-w-4xl rounded-xl bg-white/10 p-8 text-2xl leading-relaxed">
+  Pede à IA três ideias para poupar água na escola. Escolhe uma ideia, verifica-a numa fonte fiável e explica o que confirmaste.
+</div>
