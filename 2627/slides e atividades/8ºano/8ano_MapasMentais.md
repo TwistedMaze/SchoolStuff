@@ -14,11 +14,19 @@ layout: cover
 layout: default
 ---
 
+# Para relembrar....
+
+<div class="mt-8 mx-auto flex h-72 w-72 items-center justify-center rounded-xl border-2 border-dashed border-white/40 bg-white/5"></div>
+
+---
+layout: default
+---
+
 # Objetivo da aula
 
 <div class="mt-9 mx-auto max-w-5xl rounded-xl bg-white/10 p-8">
   <p class="text-2xl leading-relaxed">Hoje vamos transformar informação em mapas mentais claros, usando um tema central, ramos e palavras-chave.</p>
-  <p class="mt-6 text-xl"><strong>Material:</strong> ficha de trabalho, lápis e cores (ou uma ferramenta digital).</p>
+  <p class="mt-6 text-xl"><strong>Material:</strong> papel, material de escrita e uma ferramenta digital.</p>
 </div>
 
 ---

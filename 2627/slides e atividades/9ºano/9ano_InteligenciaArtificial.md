@@ -7,6 +7,14 @@ transition: slide
 ## Inteligência Artificial
 
 ---
+layout: default
+---
+
+# Para relembrar....
+
+<div class="mt-8 mx-auto flex h-72 w-72 items-center justify-center rounded-xl border-2 border-dashed border-white/40 bg-white/5"></div>
+
+---
 
 ### Modelos de Inteligência Artificial
 
@@ -247,4 +255,3 @@ O modelo dá a sua resposta com base no que aprendeu.
 ### Como a IA Aprende?
 
 🔵🔴 Dataset ➜ 👀 Análise ➜ 🔵/🔴 Padrões ➜ 💾 Modelo Treinado ➜ 🖼️ Teste ➜ ✔️ Resultado
-

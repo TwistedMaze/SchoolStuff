@@ -12,6 +12,14 @@ layout: cover
 ## TIC · 7.º ano
 
 ---
+layout: default
+---
+
+# Para relembrar....
+
+<div class="mt-8 mx-auto flex h-72 w-72 items-center justify-center rounded-xl border-2 border-dashed border-white/40 bg-white/5"></div>
+
+---
 
 # O que é um Sistema Operativo?
 
