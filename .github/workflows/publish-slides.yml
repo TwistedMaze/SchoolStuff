@@ -61,72 +61,83 @@ jobs:
       - name: Build 8th grade Internet deck
         run: >-
           pnpm exec slidev build
-          "2627/slides e atividades/8ºano/8ano_aula1.md"
+          "2627/slides e atividades/8ºano/8ano_Internet.md"
           --base /SchoolStuff/8ano-aula1/
           --out "$GITHUB_WORKSPACE/_site/8ano-aula1"
 
       - name: Build 8th grade repositories deck
         run: >-
           pnpm exec slidev build
-          "2627/slides e atividades/8ºano/8ano_aula2.md"
+          "2627/slides e atividades/8ºano/8ano_RepositoriosDigitaisLicencas.md"
           --base /SchoolStuff/8ano-aula2/
           --out "$GITHUB_WORKSPACE/_site/8ano-aula2"
 
       - name: Build 8th grade accessibility deck
         run: >-
           pnpm exec slidev build
-          "2627/slides e atividades/8ºano/8ano_aula3.md"
+          "2627/slides e atividades/8ºano/8ano_AcessibilidadeWeb.md"
           --base /SchoolStuff/8ano-aula3/
           --out "$GITHUB_WORKSPACE/_site/8ano-aula3"
 
       - name: Build 8th grade AI deck
         run: >-
           pnpm exec slidev build
-          "2627/slides e atividades/8ºano/8ano_aula4.md"
+          "2627/slides e atividades/8ºano/8ano_InteligenciaArtificial.md"
           --base /SchoolStuff/8ano-aula4/
           --out "$GITHUB_WORKSPACE/_site/8ano-aula4"
 
       - name: Build 8th grade representation deck
         run: >-
           pnpm exec slidev build
-          "2627/slides e atividades/8ºano/8ano_aula5.md"
+          "2627/slides e atividades/8ºano/8ano_RepresentacaoInformacao.md"
           --base /SchoolStuff/8ano-aula5/
           --out "$GITHUB_WORKSPACE/_site/8ano-aula5"
 
       - name: Build 8th grade mind maps workshop
         run: >-
           pnpm exec slidev build
-          "2627/slides e atividades/8ºano/8ano_aula6.md"
+          "2627/slides e atividades/8ºano/8ano_MapasMentais.md"
           --base /SchoolStuff/8ano-aula6/
           --out "$GITHUB_WORKSPACE/_site/8ano-aula6"
 
       - name: Build 9th grade artificial intelligence deck
         run: >-
           pnpm exec slidev build
-          "2627/slides e atividades/9ºano/9ano_aula2.md"
+          "2627/slides e atividades/9ºano/9ano_InteligenciaArtificial.md"
           --base /SchoolStuff/9ano-aula2/
           --out "$GITHUB_WORKSPACE/_site/9ano-aula2"
 
       - name: Build 9th grade mind maps deck
         run: >-
           pnpm exec slidev build
-          "2627/slides e atividades/9ºano/9ano_aula3_1.md"
+          "2627/slides e atividades/9ºano/9ano_OrganizacaoInformacao.md"
           --base /SchoolStuff/9ano-aula3-mapas-mentais/
           --out "$GITHUB_WORKSPACE/_site/9ano-aula3-mapas-mentais"
 
       - name: Build 9th grade mobile devices deck
         run: >-
           pnpm exec slidev build
-          "2627/slides e atividades/9ºano/9ano_aula3.md"
-          --base /SchoolStuff/9ano-aula3-dispositivos-moveis/
-          --out "$GITHUB_WORKSPACE/_site/9ano-aula3-dispositivos-moveis"
-
-      - name: Build 9th grade mobile applications deck
-        run: >-
-          pnpm exec slidev build
-          "2627/slides e atividades/9ºano/9ano_aula5.md"
+          "2627/slides e atividades/9ºano/9ano_DispositivosMoveis.md"
           --base /SchoolStuff/9ano-aula5/
           --out "$GITHUB_WORKSPACE/_site/9ano-aula5"
+
+      - name: Redirect the superseded mobile devices URL
+        run: |
+          mkdir -p "$GITHUB_WORKSPACE/_site/9ano-aula3-dispositivos-moveis"
+          cat > "$GITHUB_WORKSPACE/_site/9ano-aula3-dispositivos-moveis/index.html" <<'EOF'
+          <!doctype html>
+          <html lang="pt">
+            <head>
+              <meta charset="utf-8">
+              <meta http-equiv="refresh" content="0; url=/SchoolStuff/9ano-aula5/">
+              <link rel="canonical" href="/SchoolStuff/9ano-aula5/">
+              <title>Apresentação movida</title>
+            </head>
+            <body>
+              <p>Esta apresentação foi consolidada em <a href="/SchoolStuff/9ano-aula5/">Dispositivos móveis</a>.</p>
+            </body>
+          </html>
+          EOF
 
       - name: Add all-years index
         run: cp index.html _site/index.html
