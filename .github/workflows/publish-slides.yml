@@ -100,6 +100,37 @@ jobs:
           --base /SchoolStuff/8ano-aula6/
           --out "$GITHUB_WORKSPACE/_site/8ano-aula6"
 
+      - name: Build 9th grade artificial intelligence deck
+        run: >-
+          pnpm exec slidev build
+          "2627/slides e atividades/9ºano/9ano_aula2.md"
+          --base /SchoolStuff/9ano-aula2/
+          --out "$GITHUB_WORKSPACE/_site/9ano-aula2"
+
+      - name: Build 9th grade mind maps deck
+        run: >-
+          pnpm exec slidev build
+          "2627/slides e atividades/9ºano/9ano_aula3_1.md"
+          --base /SchoolStuff/9ano-aula3-mapas-mentais/
+          --out "$GITHUB_WORKSPACE/_site/9ano-aula3-mapas-mentais"
+
+      - name: Build 9th grade mobile devices deck
+        run: >-
+          pnpm exec slidev build
+          "2627/slides e atividades/9ºano/9ano_aula3.md"
+          --base /SchoolStuff/9ano-aula3-dispositivos-moveis/
+          --out "$GITHUB_WORKSPACE/_site/9ano-aula3-dispositivos-moveis"
+
+      - name: Build 9th grade mobile applications deck
+        run: >-
+          pnpm exec slidev build
+          "2627/slides e atividades/9ºano/9ano_aula5.md"
+          --base /SchoolStuff/9ano-aula5/
+          --out "$GITHUB_WORKSPACE/_site/9ano-aula5"
+
+      - name: Add all-years index
+        run: cp index.html _site/index.html
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

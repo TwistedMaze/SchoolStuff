@@ -125,14 +125,14 @@ Representar passos e decisões.
 
 Que representação utilizarias para:
 
-**1.** As notas de uma turma?
+1) As notas de uma turma?
 
 ---
 ## 🤔 Qual escolherias?
 
 Que representação utilizarias para:
 
-**2.** As categorias de uma loja online?
+2) As categorias de uma loja online?
 
 
 ---
@@ -141,15 +141,7 @@ Que representação utilizarias para:
 
 Que representação utilizarias para:
 
-**3.** Os passos para instalar uma aplicação?
-
-
----
-## 🤔 Qual escolherias?
-
-Que representação utilizarias para:
-
-**4.** Ideias para organizar uma viagem?
+3) Os passos para instalar uma aplicação?
 
 
 ---
@@ -157,7 +149,15 @@ Que representação utilizarias para:
 
 Que representação utilizarias para:
 
-**5.** Os conteúdos de uma disciplina?
+4) Ideias para organizar uma viagem?
+
+
+---
+## 🤔 Qual escolherias?
+
+Que representação utilizarias para:
+
+5) Os conteúdos de uma disciplina?
 
 ---
 
@@ -181,7 +181,8 @@ A aplicação deve apresentar:
 <li> Horários</li>
 <li> Fotografias</li>
 <li> Inscrições</li>
-<ul>
+</ul>
+</div>
 
 ---
 
