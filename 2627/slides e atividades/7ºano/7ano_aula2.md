@@ -14,6 +14,7 @@ transition: slide
 - A Internet é uma rede de redes.
 - Permite **comunicar, criar e partilhar**.
 - Cada ficheiro tem um formato: `.jpg`, `.mp3`, `.mp4`.
+
 ---
 Sabias que…
 > O primeiro vídeo do YouTube foi publicado em 2005 e tinha apenas 18 segundos?
