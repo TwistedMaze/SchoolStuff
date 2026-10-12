@@ -1,10 +1,10 @@
 ---
-title: "TIC 9º Ano – Dispositivos Móveis"
+title: "TIC 9.º Ano – Organização da Informação"
 theme: dracula
 transition: slide
 ---
 
-## Dispositivos Móveis
+## Organização da Informação
 
 ---
 layout: default
@@ -16,15 +16,12 @@ layout: default
 
 ---
 
-### Do telemóvel à aplicação
+### Da informação à navegação
 
 - Organização da informação
-- Sistemas operativos móveis
-- Segurança e utilização responsável
-- Aplicações móveis
-- Desenho de interfaces
-- Acessibilidade
-- Desenvolvimento de uma aplicação
+- Mapas mentais e categorias
+- Listas, tabelas, hierarquias e fluxogramas
+- Estrutura e navegação de aplicações
 
 ---
 
@@ -316,168 +313,4 @@ O utilizador quer consultar:
 Desenha o caminho que deve seguir desde o ecrã inicial.
 
 **Início → ? → ? → ?**
-
 ---
-
-## 📱 O que torna um dispositivo "móvel"?
-
-Um dispositivo móvel combina:
-
-- **Hardware**
-- **Sistema operativo**
-- **Sensores**
-- **Aplicações**
-- **Ligação à Internet**
-
-Exemplos de sensores:
-
-📍 GPS  
-📷 Câmara  
-🧭 Bússola  
-📐 Acelerómetro  
-💡 Sensor de luminosidade
-
----
-
-## ⚙️ Sistemas Operativos Móveis
-
-O sistema operativo:
-
-- Controla o **hardware**
-- Gere a **memória**
-- Gere as **aplicações**
-- Controla o acesso aos **sensores**
-- Gere o consumo de **energia**
-- Permite a interação com o dispositivo
-
-Exemplos:
-
-- **Android**
-- **iOS**
-
----
-
-## 🐧 Android e Linux
-
-O Android utiliza o **kernel Linux** como parte da sua base.
-
-No entanto:
-
-> **Android não é simplesmente "Linux de desktop num telemóvel".**
-
-Foi adaptado para:
-
-- Ecrãs tácteis
-- Baterias
-- Sensores
-- Hardware móvel
-- Aplicações móveis
-
-💬 **Pensa:**
-
-> Porque é que um telemóvel tem necessidades diferentes de um computador?
-
----
-
-## 🧭 Evolução dos dispositivos móveis
-
-Os dispositivos móveis foram ganhando novas capacidades.
-
-**Telemóvel**
-
-→ chamadas e SMS
-
-**Smartphone**
-
-→ Internet + aplicações
-
-**Smartphone moderno**
-
-→ GPS + câmara + biometria + pagamentos + sensores + IA
-
-> **Qual destas funcionalidades mudou mais a forma como usamos o telemóvel?**
-
----
-
-## 🔍 Actividade — Analisa uma aplicação
-
-Escolhe uma aplicação que utilizes frequentemente.
-
-Descobre:
-
-- Que sensores utiliza?
-- Precisa de Internet?
-- Que dados recebe?
-- Que dados produz?
-- Que funcionalidades dependem do dispositivo?
-
-⏱️ **10 minutos**
-
----
-
-## 🔐 Segurança Móvel
-
-Um telemóvel pode armazenar:
-
-- Fotografias
-- Mensagens
-- Contactos
-- Localização
-- Contas
-- Documentos
-- Dados pessoais
-
-Por isso devemos:
-
-- Manter o sistema actualizado
-- Utilizar PIN, palavra-passe ou biometria
-- Fazer cópias de segurança
-- Instalar aplicações de fontes confiáveis
-- Verificar permissões
-
----
-
-## 👁️ Permissões das aplicações
-
-Uma aplicação pode pedir acesso a:
-
-📷 Câmara  
-🎤 Microfone  
-📍 Localização  
-👥 Contactos  
-📁 Fotografias  
-🔔 Notificações
-
-Mas:
-
-> **Uma aplicação deve ter acesso a tudo aquilo que pede?**
-
----
-
-## 🧩 Actividade — Precisa mesmo dessa permissão?
-
-| Aplicação | Localização | Câmara | Microfone | Contactos |
-|---|---|---|---|---|
-| Calculadora | ❓ | ❓ | ❓ | ❓ |
-| Mapas | ❓ | ❓ | ❓ | ❓ |
-| Videoconferência | ❓ | ❓ | ❓ | ❓ |
-| Jogo | ❓ | ❓ | ❓ | ❓ |
-
-> **Escolhe uma resposta e justifica-a.**
-
----
-
-## 🚨 Instalavas esta aplicação?
-
-### Calculadora PRO MAX
-
-- 2 MB
-- 10 000 downloads
-- Pede acesso aos contactos
-- Pede acesso ao microfone
-- Descarregada de um site desconhecido
-- Promete "cálculos 100% mais rápidos"
-
-🟢 **Instalava**
-
-🟡 **Investig
