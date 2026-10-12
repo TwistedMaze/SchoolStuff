@@ -1,0 +1,134 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  background: #111827;
+  color: #f3f4f6;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse at 15% 0%, rgb(124 58 237 / 22%), transparent 38rem),
+    radial-gradient(ellipse at 100% 15%, rgb(14 165 233 / 13%), transparent 34rem),
+    #111827;
+}
+
+main {
+  width: min(100% - 2rem, 58rem);
+  margin: 0 auto;
+  padding: 4.5rem 0 3rem;
+}
+
+header {
+  margin: 2rem 0 2.5rem;
+}
+
+.eyebrow {
+  color: #c4b5fd;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0.6rem 0 0.8rem;
+  font-size: clamp(2.4rem, 7vw, 4.4rem);
+  letter-spacing: -0.055em;
+  line-height: 1.05;
+}
+
+header p {
+  max-width: 42rem;
+  margin: 0;
+  color: #cbd5e1;
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+.back-link,
+.year-page-link {
+  color: #c4b5fd;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.back-link:hover,
+.year-page-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.deck-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.deck-list a {
+  display: flex;
+  min-height: 4.5rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgb(148 163 184 / 18%);
+  border-radius: 0.85rem;
+  background: rgb(15 23 42 / 60%);
+  color: #f8fafc;
+  font-weight: 650;
+  line-height: 1.35;
+  text-decoration: none;
+  transition: border-color 150ms ease, background-color 150ms ease, transform 150ms ease;
+}
+
+.deck-list a::after {
+  content: "↗";
+  flex: 0 0 auto;
+  color: #c4b5fd;
+  font-size: 1.2rem;
+}
+
+.deck-list a:hover {
+  transform: translateY(-2px);
+  border-color: rgb(196 181 253 / 65%);
+  background: rgb(51 65 85 / 85%);
+}
+
+a:focus-visible {
+  outline: 3px solid #c4b5fd;
+  outline-offset: 3px;
+}
+
+footer {
+  margin-top: 2rem;
+  color: #94a3b8;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 520px) {
+  main {
+    padding-top: 3rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

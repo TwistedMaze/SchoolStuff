@@ -121,6 +121,13 @@ jobs:
           --base /SchoolStuff/9ano-aula3-mapas-mentais/
           --out "$GITHUB_WORKSPACE/_site/9ano-aula3-mapas-mentais"
 
+      - name: Build 9th grade information organization deck
+        run: >-
+          pnpm exec slidev build
+          "2627/slides e atividades/9ºano/9ano_OrganizacaoInformacao.md"
+          --base /SchoolStuff/9ano-organizacao-informacao/
+          --out "$GITHUB_WORKSPACE/_site/9ano-organizacao-informacao"
+
       - name: Build 9th grade mobile devices deck
         run: >-
           pnpm exec slidev build
@@ -145,6 +152,14 @@ jobs:
             </body>
           </html>
           EOF
+
+      - name: Add year hubs
+        run: |
+          cp year-hub.css "$GITHUB_WORKSPACE/_site/year-hub.css"
+          for year in 7ano 8ano 9ano; do
+            mkdir -p "$GITHUB_WORKSPACE/_site/$year"
+            cp "year-hubs/$year/index.html" "$GITHUB_WORKSPACE/_site/$year/index.html"
+          done
 
       - name: Add all-years index
         run: cp index.html _site/index.html

@@ -40,3 +40,5 @@ typst compile "2627/slides e atividades/8ºano/8ano_MapasMentais_Ficha.typ"
 ```
 
 The GitHub Actions workflow builds each configured deck into its own folder under `_site/`, then publishes that folder together with the all-years index page.
+
+Year-specific landing pages are published at `/7ano/`, `/8ano/`, and `/9ano/` under the GitHub Pages site. Share the page for the students' year; individual presentation links remain available too.
