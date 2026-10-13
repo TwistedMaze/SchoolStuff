@@ -16,7 +16,9 @@ layout: default
 
 # Para relembrar....
 
-<div class="mt-8 mx-auto flex h-72 w-72 items-center justify-center rounded-xl border-2 border-dashed border-white/40 bg-white/5"></div>
+<div class="mt-2 mx-auto flex h-96 w-72 max-w-full items-center justify-center">
+  <img src="./Revisão de Mapas Mentais 9º ano.png" alt="Código QR para entrar no Kahoot de revisão de mapas mentais" class="h-full w-full object-contain">
+</div>
 
 ---
 layout: default
