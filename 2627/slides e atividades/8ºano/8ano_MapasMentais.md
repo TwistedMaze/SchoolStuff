@@ -14,16 +14,6 @@ layout: cover
 layout: default
 ---
 
-# Para relembrar....
-
-<div class="mt-8 mx-auto flex h-72 w-72 items-center justify-center rounded-xl border-2 border-dashed border-white/40 bg-white/5">
-<img src="./QR_Kahoot_MapasMentais.png" alt="Código QR para entrar no Kahoot de revisão de mapas mentais" class="max-h-full max-w-full object-contain">
-</div>
-
----
-layout: default
----
-
 # Objetivo da aula
 
 <div class="mt-9 mx-auto max-w-5xl rounded-xl bg-white/10 p-8">

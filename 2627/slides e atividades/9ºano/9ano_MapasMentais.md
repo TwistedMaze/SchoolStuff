@@ -14,16 +14,6 @@ layout: cover
 layout: default
 ---
 
-# Para relembrar....
-
-<div class="mt-2 mx-auto flex h-96 w-72 max-w-full items-center justify-center">
-  <img src="./Revisão de Mapas Mentais 9º ano.png" alt="Código QR para entrar no Kahoot de revisão de mapas mentais" class="h-full w-full object-contain">
-</div>
-
----
-layout: default
----
-
 # Objetivo da oficina
 
 <div class="mt-9 mx-auto max-w-5xl rounded-xl bg-white/10 p-8">

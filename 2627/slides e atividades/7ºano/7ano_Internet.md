@@ -13,14 +13,6 @@ layout: cover
 layout: default
 ---
 
-# Para relembrar....
-
-<div class="mt-8 mx-auto flex h-72 w-72 items-center justify-center rounded-xl border-2 border-dashed border-white/40 bg-white/5"></div>
-
----
-layout: default
----
-
 # Imagem, som e vídeo na Internet
 
 <div class="mt-8 grid grid-cols-2 gap-8 items-stretch">
