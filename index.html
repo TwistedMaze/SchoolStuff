@@ -92,13 +92,18 @@
         letter-spacing: -0.03em;
       }
 
-      ul {
+      ol {
+        counter-reset: deck-order;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
         gap: 0.75rem;
         margin: 0;
         padding: 0;
         list-style: none;
+      }
+
+      .year li {
+        counter-increment: deck-order;
       }
 
       .year li a {
@@ -116,6 +121,14 @@
         line-height: 1.35;
         text-decoration: none;
         transition: border-color 150ms ease, background-color 150ms ease, transform 150ms ease;
+      }
+
+      .year li a::before {
+        content: counter(deck-order) ".";
+        flex: 0 0 auto;
+        margin-right: 0.25rem;
+        color: #c4b5fd;
+        font-variant-numeric: tabular-nums;
       }
 
       .year li a::after {
@@ -168,12 +181,12 @@
           <h2 id="year-7">7.º ano</h2>
           <a class="year-page-link" href="./7ano/">Página do 7.º ano ↗</a>
         </div>
-        <ul>
+        <ol>
           <li><a href="./7ano-internet/">Internet</a></li>
           <li><a href="./7ano-planeamento-organizacao/">Planeamento e organização</a></li>
           <li><a href="./7ano-mapas-mentais/">Oficina de mapas mentais</a></li>
           <li><a href="./7ano-sistemas-operativos/">Sistemas operativos</a></li>
-        </ul>
+        </ol>
       </section>
 
       <section class="year" aria-labelledby="year-8">
@@ -181,14 +194,14 @@
           <h2 id="year-8">8.º ano</h2>
           <a class="year-page-link" href="./8ano/">Página do 8.º ano ↗</a>
         </div>
-        <ul>
+        <ol>
           <li><a href="./8ano-aula1/">Internet</a></li>
           <li><a href="./8ano-aula2/">Repositórios digitais e licenças</a></li>
           <li><a href="./8ano-aula3/">Acessibilidade Web</a></li>
           <li><a href="./8ano-aula4/">Inteligência Artificial</a></li>
           <li><a href="./8ano-aula5/">Representação da informação</a></li>
           <li><a href="./8ano-aula6/">Oficina de mapas mentais</a></li>
-        </ul>
+        </ol>
       </section>
 
       <section class="year" aria-labelledby="year-9">
@@ -196,12 +209,12 @@
           <h2 id="year-9">9.º ano</h2>
           <a class="year-page-link" href="./9ano/">Página do 9.º ano ↗</a>
         </div>
-        <ul>
+        <ol>
           <li><a href="./9ano-aula2/">Inteligência Artificial</a></li>
-          <li><a href="./9ano-aula3-mapas-mentais/">Mapas mentais e organização da informação</a></li>
           <li><a href="./9ano-organizacao-informacao/">Organização da informação</a></li>
+          <li><a href="./9ano-aula3-mapas-mentais/">Mapas mentais</a></li>
           <li><a href="./9ano-aula5/">Dispositivos móveis</a></li>
-        </ul>
+        </ol>
       </section>
 
       <footer>
