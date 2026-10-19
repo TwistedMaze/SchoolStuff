@@ -33,6 +33,8 @@ pnpm exec slidev export "2627/slides e atividades/8ºano/8ano_Internet.md" \
   --output "2627/slides e atividades/8ºano/8ano_Internet.pdf"
 ```
 
+For more PDF export options and troubleshooting, see [the PDF export guide](2627/slides%20e%20atividades/EXPORTAR_PARA_PDF.md).
+
 Typst worksheets use the `.typ` extension. Compile one from the repository root with:
 
 ```sh
