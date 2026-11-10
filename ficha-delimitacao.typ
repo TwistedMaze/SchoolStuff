@@ -2,7 +2,7 @@
 // Ficha de delimitação do tema — TIC, 3.º ciclo
 // Altera o ano e, se necessário, as três direções escolhidas pela turma.
 
-#let ano = 8
+#let ano = 9
 
 // Direções escolhidas pela turma através de votação.
 // Altera esta lista se uma turma escolher outras direções.
