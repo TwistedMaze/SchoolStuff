@@ -110,9 +110,9 @@ jobs:
       - name: Build 8th grade intro to projects
         run: >-
          pnpm exec slidev build
-          "2627/slides e atividades/8ºano/8ano_intro_projeto1.md"
-          --base /SchoolStuff/8ano-aula7/
-          --out "$GITHUB_WORKSPACE/_site/8ano-aula7"
+         "2627/slides e atividades/8ºano/8ano_intro_projeto1.md"
+         --base /SchoolStuff/8ano-aula7/
+         --out "$GITHUB_WORKSPACE/_site/8ano-aula7"
 
       - name: Build 9th grade artificial intelligence deck
         run: >-
