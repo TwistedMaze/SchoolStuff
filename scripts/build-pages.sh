@@ -14,6 +14,7 @@ decks=(
   "2627/slides e atividades/7ºano/7ano_PlaneamentoOrganizacao.md"
   "2627/slides e atividades/7ºano/7ano_MapasMentais.md"
   "2627/slides e atividades/7ºano/7ano_SistemasOperativos.md"
+  "2627/slides e atividades/7ºano/7ano_intro_projeto1.md"
   "2627/slides e atividades/8ºano/8ano_Internet.md"
   "2627/slides e atividades/8ºano/8ano_RepositoriosDigitaisLicencas.md"
   "2627/slides e atividades/8ºano/8ano_AcessibilidadeWeb.md"
@@ -25,6 +26,7 @@ decks=(
   "2627/slides e atividades/9ºano/9ano_MapasMentais.md"
   "2627/slides e atividades/9ºano/9ano_OrganizacaoInformacao.md"
   "2627/slides e atividades/9ºano/9ano_DispositivosMoveis.md"
+  "2627/slides e atividades/9ºano/9ano_intro_projeto1.md"
 )
 
 rm -rf "$out"
